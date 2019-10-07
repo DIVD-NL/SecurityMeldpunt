@@ -1,23 +1,20 @@
 theme: jekyll-theme-cayman
 
-#paginate: 10
-#plugins: [jekyll-paginate]
+paginate: 10
+plugins: [jekyll-paginate]
+paginate_path: "blog/:num/"
 
-title: Nederlands Security Meldpunt
-description: Het Nederlandse meldunt voor 
-#url: https://www.seccubus.com
-#baseurl:
+language: nl-nl
+
+title: Nederlands Security Meldpunt (in oprichting)
+description: Het Nederlandse meldpunt voor kwetsbaarheden, infecties en andere (cyber)security gerelateerde zaken.
+
 timezone: Europe/Amsterdam
 future: true
 encoding: utf-8
 
 permalink: pretty
-#paginate_path: "news/:num/"
-#highlighter: rouge
 markdown: kramdown
-#redcarpet:
-#    extensions:
-#        - no_intra_emphasis
-#        - autolink
-#        - strikethrough
-#        - fenced_code_blocks
+show_downloads: false
+github:
+  is_project_page: false

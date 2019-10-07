@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Over ons
+  link: /over-ons/
+- name: FAQ
+  link: /faq/
+- name: English
+  link: /english/
+- name: Blog
+  link: /blog/
