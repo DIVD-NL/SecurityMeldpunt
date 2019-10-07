@@ -1,7 +1,7 @@
 
 ## Over ons...
 
-Het Nederlands Security Meldpunt is een groep vrijwillers, onderdeel van heet [Dutch Institute for Vulnerability Disclosure](https://divd.nl), die het zicht tot taak heeft gesteld eigenaren van Nederlandse netwerkblokken en websites te informeren over (cyber) security zaken die bij het meldpunt gemeld worden.
+Het Nederlands Security Meldpunt is een groep vrijwillers, onderdeel van het [Dutch Institute for Vulnerability Disclosure](https://divd.nl), die het zicht tot taak heeft gesteld eigenaren van Nederlandse netwerkblokken en websites te informeren over (cyber) security zaken die bij het meldpunt gemeld worden.
 
 ## Onze missie...
 

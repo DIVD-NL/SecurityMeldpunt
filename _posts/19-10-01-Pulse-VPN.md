@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kwetsbare Pulse VPN
+title: Kwetsbare Pulse VPN apparaten
 author: Frank Breedijk
 excerpt: We hebben ~120 waarschuwing vertuurd over kwetsbare Pulse VPN apparaten. Misbruik van Pulse VPN kwetsbaarheid is "zeer makkelijk" / We notified of ~120 vulnerable Puls VPN devices. Abusing the vulnerability is "very easy"
 ---
