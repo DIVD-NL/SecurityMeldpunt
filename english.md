@@ -18,7 +18,7 @@ We only pass on the notification to the operators; we do not keep statistics abo
 
 ## DIVD
 
-The Dutch Security Hotline hotline is part of the [Dutch Institute for Vulnerability Disclosure] (https://divd.nl). The Dutch Security Hotline  differs in a number of cases with regard to the DIVD.
+The Dutch Security Hotline hotline is part of the [Dutch Institute for Vulnerability Disclosure](https://divd.nl). The Dutch Security Hotline  differs in a number of cases with regard to the DIVD.
 
 |                      | ** Hotline **                          | ** DIVD ** |
 | Target               | Dutch network operators                | Everyone |
