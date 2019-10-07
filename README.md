@@ -4,7 +4,7 @@
 
 ### Wat kunt je melden?
 
-* Kweetsbaarheden
+* Kwetsbaarheden
 * Malware infecties
 * Andere security gerelateerde zaken
 
