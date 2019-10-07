@@ -1,5 +1,4 @@
 ---
-category: user
 title: Is dit echt? / Is this for real ?
 layout: faq
 ---

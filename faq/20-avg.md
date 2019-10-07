@@ -1,5 +1,4 @@
 ---
-category: user
 title: Hoe zit dat met de AVG? / What about GDPR ?
 layout: faq
 ---
