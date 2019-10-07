@@ -1,5 +1,24 @@
 # This page is waiting for a translation 
 
+## About us…
+The Dutch Security Hotline is a group of volunteers, part of the Dutch Institute for Vulnerability Disclosure, which has set the task of informing owners of Dutch network blocks and websites about (cyber) security issues that are reported to the Dutch Security Hotline.
+
+## Our mission…
+
+We want to make the Netherlands (Cyber) safer by acting as a hotline for security-related matters relating to Dutch network operators. We want to enable researchers and other stakeholders to quickly inform all Dutch Network operators of vulnerable or infected devices in their network.
+
+We do this in the Dutch way: Open, honest, together, and free of charge.
+
+## What we do…
+If someone reports an incident (vulnerability/infection/other issues) in multiple systems to us, we will validate it. After validation, we will find which network administrator(s) belong to the affected IP addresses and send a notification to these parties. This report contains a description of the incident (possibly via a blog post) and the affected IP addresses.
+
+## What we do not do
+The Dutch Security Hotline is not the "internet police." 
+We only pass on the notification to the operators; we do not keep statistics about the follow-up and nor will we publish about it. The hotline does not publish about vulnerabilities unless this information is already publicly available elsewhere. We do not approach individuals.
+
+
+---- Dutch ------
+
 ## Over ons...
 
 Het Nederlands Security Meldpunt is een groep vrijwillers, onderdeel van heet [Dutch Institute for Vulnerability Disclosure](https://divd.nl), die het zicht tot taak heeft gesteld eigenaren van Nederlandse netwerkblokken en websites te informeren over (cyber) security zaken die bij het meldpunt gemeld worden.
