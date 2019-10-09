@@ -5,7 +5,7 @@ Het Nederlands Security Meldpunt is een groep vrijwillers, onderdeel van het [Du
 
 ## Onze missie...
 
-Wij willen Nederland (Cyber) veiliger maken door op te treden als meldpunt voor security gerelateerde zaken met betrekking tot Nederlandse netwerk operators. Wij staan willen onderzoekers en andere belanghebbenden in staat stellen op een gemakkelijke manier alle Nederlandse Netwerk operators op de hoogte te brengen van kwetsbare of geinfecteerde apparaten in hun netwerk.
+Wij willen Nederland (Cyber) veiliger maken door op te treden als meldpunt voor security gerelateerde zaken met betrekking tot Nederlandse netwerk operators. Wij willen onderzoekers en andere belanghebbenden in staat stellen op een gemakkelijke manier alle Nederlandse Netwerk operators op de hoogte te brengen van kwetsbare of geinfecteerde apparaten in hun netwerk.
 
 We doen dit op zijn Nederlands: Open, Eerlijk, Samen en zonder kosten.
 

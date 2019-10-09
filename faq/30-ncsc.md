@@ -5,7 +5,7 @@ layout: faq
 
 ### Dutch
 
-Hoewel [het NCSC](https://www.ncsc.nl) vaak gezien wordt als het Nederlandse CERT, is dit in de praktijk niet het geval. Het NCSC heeft in de wet die haar bestaan regelt een hele duidelijke [wettelijke taak](https://www.ncsc.nl/over-ncsc/wettelijke-taak) gekregen. Uit deze tekst blijklt dat de dienstverlening van het NCSC voor organisaties die tot de rijksoverheid, of de vitale sectore behoren en geen AED (Aanbieder van Essentiele Diensten) zijn zeer beperkt is.
+Hoewel [het NCSC](https://www.ncsc.nl) vaak gezien wordt als het Nederlandse CERT, is dit in de praktijk niet het geval. Het NCSC heeft in de wet die haar bestaan regelt een hele duidelijke [wettelijke taak](https://www.ncsc.nl/over-ncsc/wettelijke-taak) gekregen. Uit deze tekst blijkt dat de dienstverlening van het NCSC voor organisaties die tot de rijksoverheid, of de vitale sectoren behoren en geen AED (Aanbieder van Essentiele Diensten) zijn zeer beperkt is.
 
 Het meldpunt verschilt van het NCSC omdat wij ons als taak hebben gesteld iedere Nederlandse netwerk operator van informatie te voorzien.
 
