@@ -1,12 +1,10 @@
 ## Het Nederlands Security Meldpunt...
 
-... is een groep vrijwillers, onderdeel van het [Dutch Institute for Vulnerability Disclosure](https://divd.nl), die het zicht tot taak heeft gesteld eigenaren van Nederlandse netwerkblokken en websites te informeren over (cyber) security zaken die bij het meldpunt gemeld worden.
+... is een groep vrijwillers, onderdeel van het [Dutch Institute for Vulnerability Disclosure](https://divd.nl), die het zich tot taak heeft gesteld eigenaren van Nederlandse netwerkblokken en websites te informeren over (cyber) security zaken die bij het meldpunt gemeld worden.
 
 ### Wat kunt je melden?
 
-* Kwetsbaarheden
-* Malware infecties
-* Andere security gerelateerde zaken
+Wij richten ons specifiek op kwetsbaarheden die een groot aantal gebruikers treft zoals b.v. de in [PulseVPN](//2019/10/01/Pulse-VPN/) en Citrix Gateway.
 
 ### Hoe kan ik melden?
 

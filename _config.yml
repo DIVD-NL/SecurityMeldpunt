@@ -6,7 +6,7 @@ paginate_path: "blog/:num/"
 
 language: nl-nl
 
-title: Nederlands Security Meldpunt (in oprichting)
+title: Nederlands Security Meldpunt (i.o.)
 description: Het Nederlandse meldpunt voor kwetsbaarheden, infecties en andere (cyber)security gerelateerde zaken.
 
 timezone: Europe/Amsterdam
