@@ -4,11 +4,11 @@
 
 ### Wat kunt je melden?
 
-Wij richten ons specifiek op kwetsbaarheden die een groot aantal gebruikers treft zoals b.v. de in [PulseVPN](//2019/10/01/Pulse-VPN/) en Citrix Gateway.
+Wij richten ons specifiek op kwetsbaarheden die een groot aantal gebruikers treft zoals b.v. de in [PulseVPN](//2019/10/01/Pulse-VPN/) en Citrix Gateway. In deze gevallen willen wij gericht de netwerk beheerders van netwerken met kwetsbare systemen op de hoogte brengen van het bestaan van deze systemen zodat zij de kwetsbaarheid kunnen (laten) verhelpen.
 
 ### Hoe kan ik melden?
 
-Lees voor je gaat melden eerst onze [spelregels](/spelregels) en lees eventueel onze [veel gestelde vragen](/faq-nl).
+Lees voor je gaat melden eerst onze [spelregels](/spelregels) en lees eventueel onze [veel gestelde vragen](/faq).
 
 Op dit moment zijn we nog in oprichting, je kunt helaas dus *nog niet melden*.
 
