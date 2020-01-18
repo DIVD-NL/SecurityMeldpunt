@@ -1,4 +1,5 @@
-Veel gestelde vragen
+Veel gestelde vragen / Frequently asked questions
+=================================================
 <ul>
 {% for p in site.pages%}
     {% if p.layout == "faq" %}

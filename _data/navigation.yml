@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Cases
+  link: /cases/
 - name: Over ons
   link: /over-ons/
 - name: FAQ
