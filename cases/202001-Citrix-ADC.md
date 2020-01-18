@@ -11,11 +11,11 @@ excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019
 
 ## Samenvatting
 
-Op 24-12-2019 werd bekend dat het product Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway (hierna Citrix ADC) een ernstig lek bevat waardoor het eenvoudig mogelijk is het systeem over te nemen. Voor het deze fout zijn nog geen patches beschikbaar, maar er is wel [mitigatie](https://support.citrix.com/article/CTX26767) beschikbaar die de kwetsbaarheid verminderd. Op dit moment lijkt deze echter niet 100% betrouwbaar. Het [NCSC](https://www.ncsc.nl) adviseert dan ook [Citrix ADC system indien mogelijk niet te gebruiken](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief).
+Op 24-12-2019 werd bekend dat het product Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway (hierna Citrix ADC) een ernstig lek bevat waardoor het eenvoudig mogelijk is het systeem over te nemen. Voor het deze fout zijn nog geen patches beschikbaar, maar er is wel [mitigatie](https://support.citrix.com/article/CTX26767) beschikbaar die de kwetsbaarheid verminderd. Op dit moment lijkt deze echter niet 100% betrouwbaar. Het [NCSC](https://www.ncsc.nl) adviseert dan ook [Citrix ADC systemen indien mogelijk niet te gebruiken](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief).
 
 Aaanvallers scannen massaal het internet af naar kwetsbare systemen die vervolgens worden overgenomen.
 
-Het Security Meldpount scant naar systemen waarvan wij op afstand vast kunnen stellen dat de mitigatie niet in uitgevoerd of werkt en sturen hiervan bericht naar de beheerders van het netwerk waar deze systemen in staan. Hierbij concentreren wij ons op system in of gelieerd aan Nederland.
+Het Security Meldpount scant naar systemen waarvan wij op afstand vast kunnen stellen dat de mitigatie niet is uitgevoerd of werkt en sturen hiervan bericht naar de beheerders van het netwerk waar deze systemen in staan. Hierbij concentreren wij ons op systemen in of gelieerd aan Nederland.
 
 Het aantal ongemitigeerde systemen neem gelukkig af.
 ![Grafiek met aantal ongemitigeerde systemen](/assets/images/CitrixADC_graph.png "Ungemitigeerde systemen")
