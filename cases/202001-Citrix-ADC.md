@@ -5,7 +5,7 @@ author: Frank Breedijk
 excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019-19781
 ---
 
-### Update 19-1-2020 9:15
+### Update 18-1-2020 9:15
 
 <small>[English below](#english)</small>
 
