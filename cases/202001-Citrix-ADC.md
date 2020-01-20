@@ -5,7 +5,7 @@ author: Frank Breedijk
 excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019-19781
 ---
 
-### Update 20-1-2020 17:15
+### Update 20-1-2020 23:45
 
 | CVE(s) | [CVE-2019-19781](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19781) |
 | Products | Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway |
@@ -25,11 +25,11 @@ Voor versie 11.1 en 12.0 zijn inmiddels [patches beschikbaar](https://www.citrix
 Aanvallers scannen massaal het internet af naar kwetsbare systemen die vervolgens worden overgenomen.
 
 Op basis van een risico analyse is het verstandig, alvorens de patches te installeren, uit te sluiten of het systeem reeds door aanvallers is gecompromitteerd.
-* Indien de mitigerende maatregel voor 9-1-2020 is toegepast en er gebruik gemaakt werd van versie 11.1 of 12.0 dan is de kans klein dat het systeem reeds gecompromitteerd is
-* Indien demitigerende maatregel na of op 9-1-202 is geimplementeerd of er gebruik gemaakt is van versie 12.1, 13 of 10 dan is het verstandig extra maatregelen te nemen.
+* Indien de mitigerende maatregel voor 9-1-2020 is toegepast en er geen gebruik gemaakt werd van versie 12.1 build 50.28 dan is de kans klein dat het systeem reeds gecompromitteerd is
+* Indien demitigerende maatregel na of op 9-1-202 is geimplementeerd of er gebruik gemaakt is van versie 12.1 build 50.28 dan is het verstandig extra maatregelen te nemen.
 * Zorg er in ieder geval voor dat u de patch uit betrouwbare bron ontvangt. Liefst van de Citrix site zelf.
 
-Deze maatregelen zijn:
+Additionele maatregelen zijn:
 * Koppel het systeem af
 * Laat het systeem door een deskundige forensisch onderzoeken (zie [onze blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), zorg dat dit onderzoek wordt uitgevoerd door een voldoende kundige expert
 * Laat verder forensisch onderzoek uitvoeren als er aanwijzignen zijn dat het systeem inderdaad gecompromitterd is
@@ -74,11 +74,11 @@ On 24-12-2019 Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway (h
 Attackers are bulk scanning the internet for vulnerable systems and exploiting them.
 
 Use the following risk analysis to determine your cause of action before patching:
-* If the mitigation was implemeneted before 9-1-2020 and version 11.1 or 12.0 was used the changes that the system is compromised are slim, you can install the pataches on your system
-* If the mitigation was implemented on or after 9-1-2020 or version 12.1, 13 of 10 was used, it is recommended to take extra measures.
+* If the mitigation was implemeneted before 9-1-2020 and version 12.1 build 50.28 was used not used the changes that the system is compromised are slim, you can install the pataches on your system
+* If the mitigation was implemented on or after 9-1-2020 or version 12.1 build 50.28 was used, it is recommended to take additional measures.
 * Make sure you patch or image comes from a realiable source , preferably the Citrix website.
 
-Additional measures:
+Additional measures are:
 * Disconnect the system
 * Make sure an expert forensically investigates the sytem (see [our blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), make sure that the expert is sufficiently qualified.
 * Perform further forensics if the system turns out to be compromised.
