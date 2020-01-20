@@ -5,7 +5,7 @@ author: Frank Breedijk
 excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019-19781
 ---
 
-### Update 20-1-2020 7:45
+### Update 20-1-2020 17:15
 
 | CVE(s) | [CVE-2019-19781](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19781) |
 | Products | Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway |
@@ -24,7 +24,20 @@ Voor versie 11.1 en 12.0 zijn inmiddels [patches beschikbaar](https://www.citrix
 
 Aanvallers scannen massaal het internet af naar kwetsbare systemen die vervolgens worden overgenomen.
 
-Het is belangrijk om, voor een systeem geptached wordt, uit te sluiten dat deze al door aanvallers is overgenomen. Dit kan door het uitvoeren van forensics (zie [blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), hiervoor is gedegen kennis nodig, of door het systeem opnieuw schoon op te bouwen op basis van een schoon [image van Citrix](https://www.citrix.com/downloads/citrix-adc/).
+Op basis van een risico analyse is het verstandig, alvorens de patches te installeren, uit te sluiten of het systeem reeds door aanvallers is gecompromitteerd.
+* Indien de mitigerende maatregel voor 9-1-2020 is toegepast en er gebruik gemaakt werd van versie 11.1 of 12.0 dan is de kans klein dat het systeem reeds gecompromitteerd is
+* Indien demitigerende maatregel na of op 9-1-202 is geimplementeerd of er gebruik gemaakt is van versie 12.1, 13 of 10 dan is het verstandig extra maatregelen te nemen.
+* Zorg er in ieder geval voor dat u de patch uit betrouwbare bron ontvangt. Liefst van de Citrix site zelf.
+
+Deze maatregelen zijn:
+* Koppel het systeem af
+* Laat het systeem door een deskundige forensisch onderzoeken (zie [onze blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), zorg dat dit onderzoek wordt uitgevoerd door een voldoende kundige expert
+* Laat verder forensisch onderzoek uitvoeren als er aanwijzignen zijn dat het systeem inderdaad gecompromitterd is
+* Als het systeem gecompromitteerd is, dan zijn ook de sleutels van de TLS certificaten gecompromitteerd. Laat deze certificaten intrekken door de uitgevende partij een vraag nieuwe exemplaren aan op basis van nieuwe sleutels. Indien gebruik is gemaakt van "wildcard" certificaten, dan moeten deze vervangen worden op alle system waarop zij gedeeld worden.
+* Bouw een nieuw schoon systeem op en voorzie dit nieuwe systeem wederom van de mitigatie.
+* Voer een riciso analyse uit wat deze inbraak verder voor u/uw organisatie betekent.
+
+(Met dank aan [NCSC Advies](https://www.ncsc.nl/actueel/nieuws/2020/januari/19/update-advies-patches-citrix))
 
 Het Security Meldpount scant naar systemen waarvan wij op afstand vast kunnen stellen dat de mitigatie niet is uitgevoerd of werkt en sturen hiervan bericht naar de beheerders van het netwerk waar deze systemen in staan. Hierbij concentreren wij ons op systemen in of gelieerd aan Nederland.
 
@@ -60,7 +73,20 @@ On 24-12-2019 Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway (h
 
 Attackers are bulk scanning the internet for vulnerable systems and exploiting them.
 
-It is important to make sure that a system is unconmpromised before it is patched. This can be done by either foresics (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/))  whgich requires in-depth knowledge, or by reinstalling the system from scratch using a clean image [downloaded form the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
+Use the following risk analysis to determine your cause of action before patching:
+* If the mitigation was implemeneted before 9-1-2020 and version 11.1 or 12.0 was used the changes that the system is compromised are slim, you can install the pataches on your system
+* If the mitigation was implemented on or after 9-1-2020 or version 12.1, 13 of 10 was used, it is recommended to take extra measures.
+* Make sure you patch or image comes from a realiable source , preferably the Citrix website.
+
+Additional measures:
+* Disconnect the system
+* Make sure an expert forensically investigates the sytem (see [our blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), make sure that the expert is sufficiently qualified.
+* Perform further forensics if the system turns out to be compromised.
+* If the system is compromised, then the keys TLS certificates on the system must be considered to be compromised as well. Ask your CA to revoke these certificates and request new certificates based on new keys. If the system contained "wildcard" certificates, then make sure these are replaced on any other systems that use them as well.
+* Build a new clean system and re-apply the mitigation.
+* Perform a risk analysis to determine the consequences of this hack for you/your organisation.
+
+(Met dank aan [NCSC Advies](https://www.ncsc.nl/actueel/nieuws/2020/januari/19/update-advies-patches-citrix))
 
 The Security Hotline is scanning for systems that are unmitigated or have an ineffective mitigation and is sending out notifications to the operators of networks in which these systems are found. We focus on systems located or related to The Netherlands.
 
