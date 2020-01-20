@@ -3,10 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.main-content {
-	padding: 0rem 0rem;
-}
-
+{% comment %}
 // Collapsable menu from : https://w3bits.com/css-dropdown-menu/
 
 //
@@ -20,11 +17,14 @@
 // 6. Border-color settings for the sub-menus and items
 // 7. Spacing/sizing for the items across the menu
 //
+{% endcomment %}
 
 // 1 //
-$menu-bg: #159957;
+//$menu-bg: #159957;
+$menu-bg: none;
 $menu-bg-hover: #1f80e0;
-$menu-bg-image: linear-gradient(120deg, #155799, #159957);
+//$menu-bg-image: linear-gradient(120deg, #155799, #159957);
+$menu-bg-image: none;
 
 // 2 //
 $menu-co: #ddd;
@@ -47,6 +47,7 @@ $sub-menu-bo: rgba(black, .1);
 // 7 //
 $menu-link-padding: 1em;
 
+{% comment %}
 //
 // The Navigation Menu
 //
@@ -84,6 +85,7 @@ $menu-link-padding: 1em;
 //   </ul>
 // </nav>
 //
+{% endcomment %}
 
 // Zero-down the margin and the padding for menu-lists if not done
 // in the base reset
@@ -100,6 +102,7 @@ $menu-link-padding: 1em;
   border: 0 solid;
 }
 
+{% comment %}
 // 
 // The Menu-list
 //
@@ -131,6 +134,8 @@ $menu-link-padding: 1em;
 //14. Adjust the direction and dropdown-icon positioning for the 
 //    right-to-left menu
 //
+{% endcomment %}
+
 .menu {
 
   // 1 //
@@ -237,6 +242,7 @@ $menu-link-padding: 1em;
   }
 }
 
+{% comment %}
 //
 // Settings for different screens
 //
@@ -261,6 +267,8 @@ $menu-link-padding: 1em;
 //    right
 //12. Align the top-level menu to the center for bigger screens
 // 
+{% endcomment %}
+
 @media only screen and (min-width: 1024px) {
   .nav {
     // 1 //
