@@ -14,7 +14,9 @@ excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019
 Op 24-12-2019 werd bekend dat het product Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway (hierna Citrix ADC) een ernstig lek bevat waardoor het eenvoudig mogelijk is het systeem over te nemen. 
 Voor versie 11.1 en 12.0 zijn inmiddels [patches beschikbaar](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/). Voor de andere versies worden de patches op 24-1 verwacht.  Voor het downloaden van patches is een Citrix portal account nodig. Voor systemen waar nog geen patches voor zijn/waren is er een [mitigatie](https://support.citrix.com/article/CTX26767) beschikbaar die de kwetsbaarheid verminderd. Deze bleek echter niet 100% betrouwbaar. Het [NCSC](https://www.ncsc.nl) adviseert dan ook [indien mogelijk Citrix ADC systemen zonder patch niet te gebruiken](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief).
 
-Aaanvallers scannen massaal het internet af naar kwetsbare systemen die vervolgens worden overgenomen.
+Aanvallers scannen massaal het internet af naar kwetsbare systemen die vervolgens worden overgenomen.
+
+Het is belangrijk om, voor een systeem geptached wordt, uit te sluiten dat deze al door aanvallers is overgenomen. Dit kan door het uitvoeren van forensics (zie [blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), hiervoor is gedegen kennis nodig, of door het systeem opnieuw schoon op te bouwen op basis van een schoon [image van Citrix](https://www.citrix.com/downloads/citrix-adc/).
 
 Het Security Meldpount scant naar systemen waarvan wij op afstand vast kunnen stellen dat de mitigatie niet is uitgevoerd of werkt en sturen hiervan bericht naar de beheerders van het netwerk waar deze systemen in staan. Hierbij concentreren wij ons op systemen in of gelieerd aan Nederland.
 
@@ -49,6 +51,8 @@ On 24-12-2019 Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway (h
 [Patches are available](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) for version 11.1 and 12.0. Patches for the other versions are expected on 24-1. A valid Citrix portal account is needed to download these patches. For systems that are currently upatched there is a [mitigation](https://support.citrix.com/article/CTX26767) that reduces the vulnerability. However, this mitigation turned out not to be 100% reliable. The [Dutch NCSC](https://www.ncsc.nl) strongly recommends to [not use Citrix ADC systems that are unpatched if possible](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief) ([translation by google](https://translate.google.com/translate?hl=&sl=auto&tl=en&u=https%3A%2F%2Fwww.ncsc.nl%2Factueel%2Fnieuws%2F2020%2Fjanuari%2F16%2Fdoor-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief).
 
 Attackers are bulk scanning the internet for vulnerable systems and exploiting them.
+
+It is important to make sure that a system is unconmpromised before it is patched. This can be done by either foresics (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/))  whgich requires in-depth knowledge, or by reinstalling the system from scratch using a clean image [downloaded form the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
 
 The Security Hotline is scanning for systems that are unmitigated or have an ineffective mitigation and is sending out notifications to the operators of networks in which these systems are found. We focus on systems located or related to The Netherlands.
 
