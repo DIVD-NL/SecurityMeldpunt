@@ -64,6 +64,24 @@ Example:
 						{% endfor %}
 			    	</ul>
 		    	</li>
+			{% elsif item.link == "/faq/" %}
+		    	<li class="menu-item has-children">
+		    		<a href="/faq/" {% if page.url == item.link %}style="color: black;"{% endif %}> 
+						FAQ <span class="dropdown-icon"></span>
+					</a>
+   					<ul class="sub-menu">
+   						{% assign pages = site.pages %}
+				    	{% for p in pages %}
+		    				{% if p.url contains "/faq/" and p.url != "/faq/" %}
+		    					<li class="menu-item">
+			    					<a href="{{ p.url }}" {% if page.url == p.url %}style="color: black;"{% endif %}>
+			    						{{ p.title | slice: 0, 40 }}...
+			    					</a>
+			    				</li>
+			    			{% endif %}
+			    		{% endfor %}
+			    	</ul>
+		    	</li>
 			{% else %}
 				<li class="menu-item">
 					<a href="{{ item.link }}" {% if page.url == item.link %}style="color: black;"{% endif %}>
