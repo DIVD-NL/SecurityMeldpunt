@@ -37,7 +37,8 @@ Example:
 						Cases <span class="dropdown-icon"></span>
 					</a>
    					<ul class="sub-menu">
-				    	{% for p in site.pages | reverse %}
+   						{% assign pages = site.pages |reverse %}
+				    	{% for p in pages %}
 		    				{% if p.url contains "/cases/" and p.url != "/cases/" %}
 		    					<li class="menu-item">
 			    					<a href="{{ p.url }}" {% if page.url == p.url %}style="color: black;"{% endif %}>
@@ -57,7 +58,7 @@ Example:
 						{% for post in site.posts %}
 							{% if forloop.index <= 5 %}
 							    <li class="menu-item">
-							        <a href="{{ post.url | prepend: site.baseurl }}" {% if page.url == post.url %}style="color: black;"{% endif %}>{{ post.title }}</a>
+							        <a href="{{ post.url | prepend: site.baseurl }}" {% if page.url == post.url %}style="color: black;"{% endif %}> {{ post.date | date: "%Y-%m-%d" }} : {{ post.title | slice: 0, 30 }}...</a>
 							    </li>
 							{% endif %}
 						{% endfor %}
