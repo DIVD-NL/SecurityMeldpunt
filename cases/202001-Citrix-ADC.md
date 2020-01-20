@@ -7,7 +7,15 @@ excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019
 
 ### Update 20-1-2020 7:45
 
+| CVE(s) | [CVE-2019-19781](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19781) |
+| Products | Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway |
+| Versions | 10, 11.1, 12.0, 12.1 and 13 |
+| Patches | Partial [11.1 and 12.0](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) |
+| Workaround | [Yes](https://support.citrix.com/article/CTX26767), but [not 100% effective](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief) |
+| Recommendation | [Don't use unpatched systems](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). Make sure systems are clean before patching |
+
 <small>[English below](#english)</small>
+
 
 ## Samenvatting
 
@@ -35,8 +43,7 @@ Het aantal ongemitigeerde systemen neem gelukkig af.
 | 14-1-2020  | Eerste notificaties worden uitgestuurd door Het Security Meldpunt |
 | 15-1-2020  | [Blog post](/2020/01/15/How-to-check-your-Citrix-gateway/) met links naar artikelen om vast te stellen of een ADC gecompromitteerd is |
 | 16-1-2020  | Het [NCSC](https://www.ncsc.nl) meldt dat de mitigatie niet betrouwbaar is en adviseert te overwegen [Citrix ADC systemen af te sluiten](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). Het Security Meldpunt besluit het scannen en melden tijdelijk te staken |
-| 17-1-2020  | Het NCSC verduidelijkt het advies van 16-1: "Schakel Citrix-systemen uit waar dat kan of tref aanvullende maatregelen".
-het Security Meldpunt gaat door met scannen en melden. |
+| 17-1-2020  | Het NCSC verduidelijkt het advies van 16-1: "Schakel Citrix-systemen uit waar dat kan of tref aanvullende maatregelen". <br> het Security Meldpunt gaat door met scannen en melden. |
 | 19-1-2020  | [Patches beschikbaar](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) voor versie 11.1 and 12.0. Dit is één dag eerder dan eerder gecommuniceerd. De datum waarop patches voor versie 12.1 en 13 is vervroegd van 27-1 naar 24-1. De datum waarop parches voor versie 10 beschikbaar zijn is vervroegd van 31-1 naar 24-1 |
 | ~ 24-1-2020  | Citrix verwacht op deze datum patches beschikbaar te hebben voor versie 10, 12.1 en 13 van Citrix ADC |
 
@@ -44,6 +51,7 @@ het Security Meldpunt gaat door met scannen en melden. |
 <hr>
 
 ### <a name="english"></a>English
+<hr>
 
 ## Summary
 
@@ -73,7 +81,6 @@ The number of vulnerable systems is decreasing
 | 14-1-2020  | First notifications have been sent out by the [The Dutch Security Hotline](https://www.securitymeldpunt.nl/english/) |
 | 15-1-2020  | [Blog post](/2020/01/15/How-to-check-your-Citrix-gateway/) with links to articles on how to establish whether a ADC is compromised |
 | 16-1-2020  | The Dutch National Cyber Security Center, [NCSC](https://www.ncsc.nl), reports mitigation measures prove unreliable and advices to consider to [shut down Citrix ADC systems](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). The Dutch Security Hotline decides to temporarily stop scanning and reporting.  |
-| 17-1-2020  | The NCSC Het NCSC clarifies its 16-1 statement: "Shut down Citrix systems if possible or take additional measures".
-The Dutch Security Hotline continues its scanning and reporting activities. |
+| 17-1-2020  | The NCSC Het NCSC clarifies its 16-1 statement: "Shut down Citrix systems if possible or take additional measures". <br> The Dutch Security Hotline continues its scanning and reporting activities. |
 | 19-1-2020  | [Patches avaiable](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) for version 11.1 and 12.0. This is one day sooner then initially communicated. The date for which patches for version 12.1 and 13 are availbe has changed from 27-1 to 24-1. The date that patches are aviable for version 10 has been changed from 31-1 to 24-1. |
 | ~ 24-1-2020  | Citrix expect to have patches available for version 10, 12.1 and 13 |
