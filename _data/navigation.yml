@@ -2,14 +2,12 @@
   link: /
 - name: Cases
   link: /cases/
+- name: Blog
+  link: /blog/
 - name: Over ons
   link: /over-ons/
 - name: FAQ
   link: /faq/
-- name: English
-  link: /english/
-- name: Blog
-  link: /blog/
 - name: RSS
   link: /feed.xml
 - name: Contact
