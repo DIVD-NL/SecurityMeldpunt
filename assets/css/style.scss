@@ -23,7 +23,8 @@
 
 // 1 //
 $menu-bg: #159957;
-$menu-bg-hover: #155799;
+$menu-bg-hover: #1f80e0;
+$menu-bg-image: linear-gradient(120deg, #155799, #159957);
 
 // 2 //
 $menu-co: #ddd;
@@ -368,6 +369,7 @@ $menu-link-padding: 1em;
 .nav {
   // 1 //
   background-color: $menu-bg;
+  background-image: $menu-bg-image;
 
   .menu {
     > .menu-item {
