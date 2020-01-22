@@ -18,9 +18,9 @@ Hieronder staan twee goede artikelen met gedetaileerde instructies die je kunt g
 
 ### <a name="english"></a>English
 
-In my [previous blogpost](/2020/01/13/Citrix/) I wrote that it is very likely that any Citrix ADC that did not have the mitigations applied after the 11th of Janary is compromised. By now we are receiving the [first reports](https://twitter.com/sans_isc/status/1216375320846176261) on this. The [Sans Internet Storm Center](https://isc.sans.edu) is also reporting that [systems are being mass compromised](https://isc.sans.edu/forums/diary/Citrix+ADC+Exploits+are+Public+and+Heavily+Used+Attempts+to+Install+Backdoor/25700/)
+In my [previous blogpost](/2020/01/13/Citrix/) I wrote that it is very likely that any Citrix ADC that did not have the mitigations applied after the 11th of Janary is compromised. By now we are receiving the [first reports](https://twitter.com/sans_isc/status/1216375320846176261) on this. The [Sans Internet Storm Center](https://isc.sans.edu) is also reporting that [systems are being mass compromised](https://isc.sans.edu/forums/diary/Citrix+ADC+Exploits+are+Public+and+Heavily+Used+Attempts+to+Install+Backdoor/25700/).
 
-Below I've listed two good articles about actions to take to cehck if and how a system is compromised:
+Below I've listed two good articles about actions that can be taken to check if and how a system is compromised:
 
 * [TrustedSec - Netscaler Remote code execution forensics](https://www.trustedsec.com/blog/netscaler-remote-code-execution-forensics/)
 * [x1sec - Citrix ADC (NetScaler) CVE-2019-19781 DFIR Notes](https://x1sec.com/CVE-2019-19781-DFIR)

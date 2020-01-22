@@ -18,9 +18,9 @@ We zijn terug bij af 😢
 
 ### <a name="english"></a>English
 
-Earilier this evening the Dutch NCSC released [this news article](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief) ([translation by google](https://translate.google.com/translate?hl=&sl=auto&tl=en&u=https%3A%2F%2Fwww.ncsc.nl%2Factueel%2Fnieuws%2F2020%2Fjanuari%2F16%2Fdoor-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). 
+Earlier this evening the Dutch NCSC released [this news article](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief) ([translation by google](https://translate.google.com/translate?hl=&sl=auto&tl=en&u=https%3A%2F%2Fwww.ncsc.nl%2Factueel%2Fnieuws%2F2020%2Fjanuari%2F16%2Fdoor-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). 
 
-Our interpretation of this article is that timplementing the mitigation suggested by Citrix seem to be/is not sufficient to remove the vulnerability from the system. It is certain that this mitigation was not effective on certain ADC versions and there is doubt about its effectiveness on other versions.
+Our interpretation of this article is that implementing the mitigation suggested by Citrix seem to be/is not sufficient to remove the vulnerability from the system. It is certain that this mitigation was not effective on certain ADC versions and there is doubt about its effectiveness on other versions.
 
 Since our scan only detects if the mitigations are installed or not and this is not a reliable indicator of the vulnerability of the system, the results of our scans are not reliable either. We have therefore determined to stop scanning for now and wait until we can develop a reliable scan again.
 

@@ -9,4 +9,4 @@ Ja, naar aanleiding van CVE-2019-19781 (Ketsbaaheid in Citrix Application Delive
 
 ### English
 
-Yes, because of CVE-2019-19781 ( Vulenrability of Citrix Applicaiton Delivery Contoller) the Dutch Security hotline is really sending out notifications.
+Yes, because of CVE-2019-19781 ( Vulnerability of Citrix Applicaiton Delivery Contoller) the Dutch Security hotline is really sending out notifications.

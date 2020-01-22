@@ -25,9 +25,9 @@ Yesterday [I reported](/2020/01/16/Terug-bij-af/) that we would stop scanning fo
 After discussion with my colleagues at the Security Hotline and [DIVD](https://www.divd.nl) we decided to go on scanning and notifying.
 
 Why?
-* While the mitigation my not be 100% effective, a system with this mitigation is still less vulnerable then a system without
-* A system that does not have the mitigations by now is likely "forgotten", by sending out notifications we hope to bring those system under the attention of those that can "fix" them.
+* While the mitigation may not be 100% effective, a system with this mitigation is still less vulnerable then a system without
+* A system that does not have the mitigations by now is likely "forgotten", by sending out notifications we hope to bring those systems under the attention of those that can "fix" them.
 
-We really want to stress to anybody that has received a notification from us about an unmitigeted system that unmitigated systems at this point are likely already compromised. It is advisable to check the system (possibly with the help of [this information](/2020/01/15/How-to-check-your-Citrix-gateway/)).
+We really want to stress to anybody that has received a notification from us about an unmitigated system that unmitigated systems at this point are likely already compromised. It is advisable to check the system (possibly with the help of [this information](/2020/01/15/How-to-check-your-Citrix-gateway/)).
 
 We are back at it again!
