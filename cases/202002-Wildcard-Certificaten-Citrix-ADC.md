@@ -2,7 +2,7 @@
 layout: case
 title: 202002 - Wildcard certificaten Citrix ADC
 author: Frank Breedijk
-excerpt: Op ruim 450 kwetsbare Citrix ADC systemen hebben wij wildcard certificaten aangetroffen / We have found oiver 450 Citrix ADC 
+excerpt: Op ruim 450 kwetsbare Citrix ADC systemen hebben wij wildcard certificaten aangetroffen / We have found over 450 vulnerable Citrix ADC that used wildcard certificates
 ---
 
 ### Update 22-1-2020 8:50
