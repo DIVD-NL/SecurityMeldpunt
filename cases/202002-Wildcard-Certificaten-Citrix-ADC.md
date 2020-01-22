@@ -5,7 +5,7 @@ author: Frank Breedijk
 excerpt: Op ruim 450 kwetsbare Citrix ADC systemen hebben wij wildcard certificaten aangetroffen / We have found over 450 vulnerable Citrix ADC that used wildcard certificates
 ---
 
-### Update 22-1-2020 8:50
+### Update 22-1-2020 11:15
 
 | CVE(s) | Related to [CVE-2019-19781](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19781) |
 | Products | TLS Wildcard certificates installed on vulnerable Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway / Citrix SD-WAN WANOP servers |
