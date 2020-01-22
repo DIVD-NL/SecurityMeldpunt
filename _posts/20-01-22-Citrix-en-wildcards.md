@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Veel kwetsbare CItrix ADC systemn gebruiken wildcard certificaten / Lots of vulnerable Citrix ADCs used wildcard certificates
+title: Wildcard certificaten aangetroffen op veel kwetsbare Citrix ADC systemen / Lots of vulnerable Citrix ADCs used wildcard certificates
 author: Frank Breedijk
-excerpt: Het Security Meldopunt gaat meldingen versturen om beheerders te waarschuwen / The Security Hotline is going to notify administrators
+excerpt: Het Security Meldpunt gaat meldingen versturen om beheerders te waarschuwen / The Security Hotline is going to notify administrators
 ---
 <small>[English below](#english)</small>
 
-Op meer dan 450 van de 700 door ons in de nacht van 9 op 10 januari als kwetsbaar geidentificeerde systemen wildcaqrd certificaten bevatten. Het lekken dan deze certificaten en de bijbehorende sleutels is niet alleen een risico voor de Citrix omgeving, maar stelt een aanvaller in staat om elke met TLS beveiligde verbinding naar systemen van die organisatie te onderscheppen zonder dat de gebruiker daar een melding van krijgt.
+Op meer dan 450 van de 700 door ons in de nacht van 9 op 10 januari als kwetsbaar geidentificeerde systemen  zijn wildcard certificaten aanwezig. Het lekken van deze certificaten en de bijbehorende sleutels is niet alleen een risico voor de Citrix omgeving, maar stelt een aanvaller in staat om elke met TLS beveiligde verbinding naar systemen van die organisatie te onderscheppen zonder dat de gebruiker daar een melding van krijgt.
 
 Het Security Meldpunt gaat beheerders waarvan de systemen op de lijst staan waarschuwen.
 

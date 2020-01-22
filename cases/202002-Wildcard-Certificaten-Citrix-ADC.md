@@ -19,7 +19,7 @@ excerpt: Op ruim 450 kwetsbare Citrix ADC systemen hebben wij wildcard certifica
 
 ## Samenvatting
 
-Uit analyse van de data van onze scan in de nacht van 9 op 10 januari is gebleken dat van de ruim 700 door ons als kwetsbaar geidentificeerde Citrix systmen meer dan 450 systemen gebruik maakten van wildcard certificaten.
+Uit analyse van de data van onze scan in de nacht van 9 op 10 januari is gebleken dat van de ruim 700 door ons als kwetsbaar geidentificeerde Citrix systmen meer dan 450 systemen gebruik maakten van [wildcard certificaten](https://en.wikipedia.org/wiki/Wildcard_certificate).
 
 Wildcard certificaten zijn TLS certificaten die geldig zijn voor alle sub-domeinen binnen een domein. B.v. het (niet bestaande) wildcard certificaat `*.securitymeldpunt.nl` is geldig voor alle subdomeinen van `securitymeldpunt.nl`, dus b.v. ook voor `www.securitymeldpunt.nl`, `mail.securitymeldpunt.nl` en `cms.securitymeldpunt.nl`
 
