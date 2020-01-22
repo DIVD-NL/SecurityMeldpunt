@@ -59,4 +59,30 @@ Wij zijn op dit moment bezig de lijst te verwerken en gaan daarna proberen alle 
 ### <a name="english"></a>English
 <hr>
 
-Translation will follow.
+## Summary
+
+Our analysis of the scan data collected on the night of January 9 to 10 shows that of the more than 700 vulnerable Citrix servers identified in the Netherlands, over 450 used wildcard certificates.
+
+Wildcard certificates are TLS certificates that can be used with multiple sub-domains of a domain. As an example, the wildcard certificate `*.securitymeldpunt.nl` (fictional) is valid for all sub-domains available of `securitymeldpunt.nl` - e.g., `www.securitymeldpunt.nl`, `mail.securitymeldpunt.nl`, `cms.securitymeldpunt.nl`.
+
+TLS certificates ensure the integrity of a tls connections and validate the identity of the website or service accessed by an end-user. They provide protection against intercepting, manipulating, or redirecting connections to a malicious site (e.g. for phishing).
+There is a high probability that Citrix ADC servers with no mitigation applied on or after January 9, 2020, have been taken over and their TLS certificates and associated keys have been stolen.
+
+## What you can do
+
+Before taking any action, ask the following questions:
+* Was the mitigation installed on or after January 9?
+* Has version 12.1 build 50.28 been used?
+
+If the answer to one of these questions is "yes," we recommend taking these steps:
+1. Check which TLS certificates were present on the system
+2. Replace these certificates with new, preferably not wildcard, certificates
+3. Have these TLS certificates revoked by the Certificate Authority (CA) that issued them
+
+Note that a wildcard certificate may also be used on a system other than the relevant Citrix system.
+
+If you are highly confident that your system has not been compromised, we still recommend replacing the wildcard certificate with a non-wildcard one and avoid using them in the future.
+
+### What we are doing
+
+We are currently processing the list of vulnerable Citrix servers identified in our scanning and will try to inform all affected parties. We have shared our data with the NCSC.
