@@ -16,8 +16,8 @@ We hebben de [case pagine](/cases/202001-Citrix-ADC/) bijgewerkt.
 
 ### <a name="english"></a>English
 
-Citrix [just released](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) patches for version 11.1 and 12.0 and expects te release patches for version 10.0, 12.1 and 13 on 24-1.
+Citrix [just released](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) patches for version 11.1 and 12.0 and expects to release patches for version 10.0, 12.1 and 13 on 24-1.
 
-It is important to make sure that a system is unconmpromised before it is patched. This can be done by either foresics (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/))  whgich requires in-depth knowledge, or by reinstalling the system from scratch using a clean image [downloaded form the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
+It is important to make sure that a system is not conpromised before it is patched. This can be done by either performing foresics (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/))  which requires in-depth knowledge, or by reinstalling the system from scratch using a clean image [downloaded form the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
 
 We have updated the [case page](/cases/202001-Citrix-ADC/).

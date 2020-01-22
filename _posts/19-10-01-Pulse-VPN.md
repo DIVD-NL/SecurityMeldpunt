@@ -16,7 +16,7 @@ Pulse Secure heeft [patches beschikbaar gemaakt](https://kb.pulsesecure.net/arti
 
 ### English
 
-Today we again notified network operators of about 120 vulnerable Pulse VPN appliances that are still active. The story around Pulse VPN has attracked [political interest](https://www.tellerreport.com/tech/2019-10-01---%22grapperhaus-wants-the-government-to-intervene-in-poorly-secured-companies%22-.ByG5OtlOr.html).
+Today we again notified network operators of about 120 vulnerable Pulse VPN appliances that are still active. The story around Pulse VPN has attracted [political interest](https://www.tellerreport.com/tech/2019-10-01---%22grapperhaus-wants-the-government-to-intervene-in-poorly-secured-companies%22-.ByG5OtlOr.html).
 
 Various sources report that this vulnerability is actively exploited. Exploit code is [available](https://www.exploit-db.com/exploits/47297) [online](https://www.exploit-db.com/exploits/47354)]. The [NSA warns](https://media.defense.gov/2019/Oct/07/2002191601/-1/-1/0/CSA-MITIGATING-RECENT-VPN-VULNERABILITIES.PDF) that organisations that currently have a vulnerable device online or had such a device online in the past weeks, must assume that there has been unauthorised access to the internet network protected by the device. Just patching the device is not enough.
 
