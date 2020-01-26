@@ -59,7 +59,7 @@ Het aantal ongemitigeerde systemen neem gelukkig af.
 | 17-1-2020  | Het NCSC verduidelijkt het advies van 16-1: "Schakel Citrix-systemen uit waar dat kan of tref aanvullende maatregelen". <br> het Security Meldpunt gaat door met scannen en melden. |
 | 19-1-2020  | [Patches beschikbaar](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) voor versie 11.1 and 12.0. Dit is één dag eerder dan eerder gecommuniceerd. De datum waarop patches voor versie 12.1 en 13 is vervroegd van 27-1 naar 24-1. De datum waarop parches voor versie 10 beschikbaar zijn is vervroegd van 31-1 naar 24-1 |
 | ~ 24-1-2020  | Citrix verwacht op deze datum patches beschikbaar te hebben voor versie 10, 12.1 en 13 van Citrix ADC en voor SD-WAN WANOP|
-
+| ~ 26-1-2020  | Citrix heeft de definitieve patches (eerder) uitgebracht voor alle versies: [https://www.citrix.com/blogs/2020/01/24/citrix-releases-final-fixes-for-cve-2019-19781/]. Daarnaast is er een testtool beschikbaar gesteld om te controleren of er potentieel misbruik is gemaakt van de kwetsbaarheid: [https://www.citrix.com/blogs/2020/01/22/citrix-and-fireeye-mandiant-share-forensic-tool-for-cve-2019-19781/] |
  
 <hr>
 
@@ -110,3 +110,4 @@ The number of vulnerable systems is decreasing
 | 17-1-2020  | The NCSC Het NCSC clarifies its 16-1 statement: "Shut down Citrix systems if possible or take additional measures". <br> The Dutch Security Hotline continues its scanning and reporting activities. |
 | 19-1-2020  | [Patches avaiable](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) for version 11.1 and 12.0. This is one day sooner then initially communicated. The date for which patches for version 12.1 and 13 are availbe has changed from 27-1 to 24-1. The date that patches are aviable for version 10 has been changed from 31-1 to 24-1. |
 | ~ 24-1-2020  | Citrix expect to have patches available for version 10, 12.1 and 13 of ADC and SD-WAN WANOP |
+| ~ 24-1-2020  | Citrix deploys the final patches for all versions: [https://www.citrix.com/blogs/2020/01/24/citrix-releases-final-fixes-for-cve-2019-19781/]. Also an Indicator of Compromise Scanning tool has been released to test possible exploitation: [https://www.citrix.com/blogs/2020/01/22/citrix-and-fireeye-mandiant-share-forensic-tool-for-cve-2019-19781/] |
