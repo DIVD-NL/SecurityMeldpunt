@@ -10,7 +10,7 @@ excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019
 | CVE(s) | [CVE-2019-19781](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19781) |
 | Products | Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway / Citrix SD-WAN WANOP |
 | Versions | ADC versions 10, 11.1, 12.0, 12.1 and 13 <br> SD-WAN WANOP versions 10.2.6 and 11.0.3 |
-| Patches | Final for all versions [11.1 and 12.0](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) |
+| Patches | Final for [All versions](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) |
 | Workaround | [Yes](https://support.citrix.com/article/CTX26767), but [not 100% effective](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief) |
 | Recommendation | [Don't use unpatched systems](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). Make sure systems are clean before patching |
 
