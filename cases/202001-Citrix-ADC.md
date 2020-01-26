@@ -6,12 +6,12 @@ excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019
 redirect_from: /DIVD-2020-00001/
 ---
 
-### Update 21-1-2020 8:50
+### Update 26-1-2020 10:33
 
 | CVE(s) | [CVE-2019-19781](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19781) |
 | Products | Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway / Citrix SD-WAN WANOP |
 | Versions | ADC versions 10, 11.1, 12.0, 12.1 and 13 <br> SD-WAN WANOP versions 10.2.6 and 11.0.3 |
-| Patches | Partial [11.1 and 12.0](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) |
+| Patches | Final for [All versions](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) |
 | Workaround | [Yes](https://support.citrix.com/article/CTX26767), but [not 100% effective](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief) |
 | Recommendation | [Don't use unpatched systems](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). Make sure systems are clean before patching |
 
@@ -33,6 +33,7 @@ Op basis van een risico analyse is het verstandig, alvorens de patches te instal
 Additionele maatregelen zijn:
 * Koppel het systeem af
 * Laat het systeem door een deskundige forensisch onderzoeken (zie [onze blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), zorg dat dit onderzoek wordt uitgevoerd door een voldoende kundige expert
+* Controleer het systeem op bekende [IOC's (Indicators Of Compromise)](https://github.com/citrix/ioc-scanner-CVE-2019-19781/)
 * Laat verder forensisch onderzoek uitvoeren als er aanwijzignen zijn dat het systeem inderdaad gecompromitterd is
 * Als het systeem gecompromitteerd is, dan zijn ook de sleutels van de TLS certificaten gecompromitteerd. Laat deze certificaten intrekken door de uitgevende partij een vraag nieuwe exemplaren aan op basis van nieuwe sleutels. Indien gebruik is gemaakt van "wildcard" certificaten, dan moeten deze vervangen worden op alle system waarop zij gedeeld worden.
 * Bouw een nieuw schoon systeem op en voorzie dit nieuwe systeem wederom van de mitigatie.
@@ -60,7 +61,7 @@ Het aantal ongemitigeerde systemen neem gelukkig af.
 | 17-1-2020  | Het NCSC verduidelijkt het advies van 16-1: "Schakel Citrix-systemen uit waar dat kan of tref aanvullende maatregelen". <br> het Security Meldpunt gaat door met scannen en melden. |
 | 19-1-2020  | [Patches beschikbaar](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) voor versie 11.1 and 12.0. Dit is één dag eerder dan eerder gecommuniceerd. De datum waarop patches voor versie 12.1 en 13 is vervroegd van 27-1 naar 24-1. De datum waarop parches voor versie 10 beschikbaar zijn is vervroegd van 31-1 naar 24-1 |
 | ~ 24-1-2020  | Citrix verwacht op deze datum patches beschikbaar te hebben voor versie 10, 12.1 en 13 van Citrix ADC en voor SD-WAN WANOP|
-
+| ~ 26-1-2020  | Citrix heeft de definitieve patches (eerder) uitgebracht voor alle [versies](https://www.citrix.com/blogs/2020/01/24/citrix-releases-final-fixes-for-cve-2019-19781/). Daarnaast is er een testtool beschikbaar gesteld om te controleren of er potentieel misbruik is gemaakt van de kwetsbaarheid en er [IOC's op het systeem aanwezig zijn](https://www.citrix.com/blogs/2020/01/22/citrix-and-fireeye-mandiant-share-forensic-tool-for-cve-2019-19781/) |
  
 <hr>
 
@@ -75,13 +76,14 @@ On 24-12-2019 Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway (h
 Attackers are bulk scanning the internet for vulnerable systems and exploiting them.
 
 Use the following risk analysis to determine your cause of action before patching:
-* If the mitigation was implemeneted before 9-1-2020 and version 12.1 build 50.28 was used not used the changes that the system is compromised are slim, you can install the pataches on your system
+* If the mitigation was implemeneted before 9-1-2020 and version 12.1 build 50.28 was used not used the changes that the system is compromised are slim, you can install the patches on your system
 * If the mitigation was implemented on or after 9-1-2020 or version 12.1 build 50.28 was used, it is recommended to take additional measures.
 * Make sure you patch or image comes from a realiable source , preferably the Citrix website.
 
 Additional measures are:
 * Disconnect the system
 * Make sure an expert forensically investigates the sytem (see [our blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), make sure that the expert is sufficiently qualified.
+* Test your system on possible [IOC's (Indicators Of Compromise](https://github.com/citrix/ioc-scanner-CVE-2019-19781/)
 * Perform further forensics if the system turns out to be compromised.
 * If the system is compromised, then the keys TLS certificates on the system must be considered to be compromised as well. Ask your CA to revoke these certificates and request new certificates based on new keys. If the system contained "wildcard" certificates, then make sure these are replaced on any other systems that use them as well.
 * Build a new clean system and re-apply the mitigation.
@@ -111,3 +113,4 @@ The number of vulnerable systems is decreasing
 | 17-1-2020  | The NCSC Het NCSC clarifies its 16-1 statement: "Shut down Citrix systems if possible or take additional measures". <br> The Dutch Security Hotline continues its scanning and reporting activities. |
 | 19-1-2020  | [Patches avaiable](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) for version 11.1 and 12.0. This is one day sooner then initially communicated. The date for which patches for version 12.1 and 13 are availbe has changed from 27-1 to 24-1. The date that patches are aviable for version 10 has been changed from 31-1 to 24-1. |
 | ~ 24-1-2020  | Citrix expect to have patches available for version 10, 12.1 and 13 of ADC and SD-WAN WANOP |
+| ~ 24-1-2020  | Citrix deploys the final patches for [all versions](https://www.citrix.com/blogs/2020/01/24/citrix-releases-final-fixes-for-cve-2019-19781/). Also an Indicator of Compromise Scanning tool has been released to [test possible exploitation](https://www.citrix.com/blogs/2020/01/22/citrix-and-fireeye-mandiant-share-forensic-tool-for-cve-2019-19781/) |
