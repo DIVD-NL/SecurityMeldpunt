@@ -3,9 +3,10 @@ layout: case
 title: 202002 - Wildcard certificaten Citrix ADC
 author: Frank Breedijk
 excerpt: Op ruim 450 kwetsbare Citrix ADC systemen hebben wij wildcard certificaten aangetroffen / We have found over 450 vulnerable Citrix ADC that used wildcard certificates
+redirect_from: /DIVD-2020-00002/
 ---
 
-### Update 22-1-2020 11:15
+### Update 22-1-2020 21:20
 
 | CVE(s) | Related to [CVE-2019-19781](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19781) |
 | Products | TLS Wildcard certificates installed on vulnerable Citrix ADC / Citrix Gateway / Netscaler ADC / Netscaler Gateway / Citrix SD-WAN WANOP servers |
@@ -53,6 +54,7 @@ Wij zijn op dit moment bezig de lijst te verwerken en gaan daarna proberen alle 
 | 9-1-2020 / 10-1-2020 | Initiele scan uitgevoerd om kwetsbare systemen te identificeren. Hierbij zijn ook de domeinnamen in de TLS certificaten opgeslagen |
 | 22-1-2020 | Data gedeeld met NCSC |
 | 22-1-2020 | Data analyse |
+| 22-1-2020 | We hebben ongeveer 1350 emailgestuurd aan abuse@, info@ en security@ van de betrokken domeinen |
  
 <hr>
 
@@ -83,6 +85,16 @@ Note that a wildcard certificate may also be used on a system other than the rel
 
 If you are highly confident that your system has not been compromised, we still recommend replacing the wildcard certificate with a non-wildcard one and avoid using them in the future.
 
-### What we are doing
+## What we are doing
 
 We are currently processing the list of vulnerable Citrix servers identified in our scanning and will try to inform all affected parties. We have shared our data with the NCSC.
+
+## Timeline
+
+
+| Date  | Description |
+|:-----:|-------------|
+| 9-1-2020 / 10-1-2020 | Inital scan to identify affecged systems. During this scan the domainnames in TLS certificates were recorded as well.  |
+| 22-1-2020 | Shared Data with Dutch NCSC |
+| 22-1-2020 | Data analysis |
+| 22-1-2020 | We sent out about 1350 email messages to abuse, info and security addresses of affected domains |

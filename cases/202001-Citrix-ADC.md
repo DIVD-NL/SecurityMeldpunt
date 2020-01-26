@@ -3,6 +3,7 @@ layout: case
 title: 202001 - Citrix ADC
 author: Frank Breedijk
 excerpt: Onze status omtrend CVE-2019-19781 / Our current status around CVE-2019-19781
+redirect_from: /DIVD-2020-00001/
 ---
 
 ### Update 21-1-2020 8:50
