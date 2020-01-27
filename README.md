@@ -4,7 +4,7 @@
 
 ### Wat kunt je melden?
 
-Wij richten ons specifiek op kwetsbaarheden die een groot aantal gebruikers treft zoals b.v. de in [PulseVPN](//2019/10/01/Pulse-VPN/) en Citrix Gateway. In deze gevallen willen wij gericht de netwerk beheerders van netwerken met kwetsbare systemen op de hoogte brengen van het bestaan van deze systemen zodat zij de kwetsbaarheid kunnen (laten) verhelpen.
+Wij richten ons specifiek op kwetsbaarheden die een groot aantal gebruikers treft zoals b.v. de in [Citrix ADC](/DIVD-2020-00001/). In deze gevallen willen wij gericht de netwerk beheerders van netwerken met kwetsbare systemen op de hoogte brengen van het bestaan van deze systemen zodat zij de kwetsbaarheid kunnen (laten) verhelpen.
 
 ### Hoe kan ik melden?
 
