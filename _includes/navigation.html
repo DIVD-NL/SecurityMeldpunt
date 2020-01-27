@@ -39,10 +39,11 @@ Example:
    					<ul class="sub-menu">
    						{% assign pages = site.pages |reverse %}
 				    	{% for p in pages %}
-		    				{% if p.url contains "/cases/" and p.url != "/cases/" %}
+		    				{% if p.url contains "/cases/" and p.url != "/cases/" and p.layout != "redirect" %}
 		    					<li class="menu-item">
 			    					<a href="{{ p.url }}" {% if page.url == p.url %}style="color: black;"{% endif %}>
-			    						{{ p.title }}
+			    						{{ p.divd }}<br>
+			    						{{ p.short }}
 			    					</a>
 			    				</li>
 			    			{% endif %}
