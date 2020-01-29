@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BleuGate patch restart?
+title: BlueGate patch restart?
 author: Frank Breedijk
 excerpt: Het lijkt erop dat een herstart van de Remote Dekstop Services nodig is om de patch te activeren / It looks like a restart of the Remote Desktop Services is needed to activate the patch
 ---
