@@ -1,3 +1,7 @@
+---
+title: Over ons
+---
+
 <small>[English below](#english)</small>
 
 ## Over ons...
@@ -31,11 +35,11 @@ Het Nederlands Security meldpunt is onderdeel van het [Dutch Institute for Vulne
 
 ## Hoe zit dat met de AVG?
 
-IP adressen zijn door de Autoriteit Persoonsgegevens aangemeld als persoonsgegevens. Dit betekent dus dat het meldpunt persoonsgegevens verwerkt. Het meldpunt gebruikt hiervoor de grondslag ["gerechtvaardigd belang"](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/mag-u-persoonsgegevens-verwerken). 
+IP adressen zijn door de Autoriteit Persoonsgegevens aangemeld als persoonsgegevens. Dit betekent dus dat het meldpunt persoonsgegevens verwerkt. Het meldpunt gebruikt hiervoor de grondslag ["gerechtvaardigd belang"](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/mag-u-persoonsgegevens-verwerken).
 
 Volgens de AP mag een organisatie zich beroepen op een gerechtvaardigd belang als aan drie voorwaarden wordt voldaan:
-(1) u heeft een gerechtvaardigd belang, 
-(2) de verwerking is noodzakelijk om dit gerechtvaardigde belang te behartigen en 
+(1) u heeft een gerechtvaardigd belang,
+(2) de verwerking is noodzakelijk om dit gerechtvaardigde belang te behartigen en
 (3) u heeft een afweging gemaakt tussen uw belangen en die van de personen van wie u persoonsgegevens verwerkt.
 
 Het doel van het meldpunt is Nederland (Cyber) veiliger te maken door netwerkbeheerders te informeren over incidenten in hun netwerk zodat zij deze kunnen verhelpen. Een veiliger Nederland in het algmeen belang.
@@ -61,7 +65,7 @@ We do this in the Dutch way: Open, honest, together, and free of charge.
 If someone reports an incident (vulnerability/infection/other issues) in multiple systems to us, we will validate it. After validation, we will find which network administrator(s) belong to the affected IP addresses and send a notification to these parties. This report contains a description of the incident (possibly via a blog post) and the affected IP addresses.
 
 ## What we do **not** do
-The Dutch Security Hotline is not the "internet police." 
+The Dutch Security Hotline is not the "internet police."
 We only pass on the notification to the operators; we do not keep statistics about the follow-up and nor will we publish about it. The hotline does not publish about vulnerabilities unless this information is already publicly available elsewhere. We do not approach individuals.
 
 ## DIVD
@@ -70,12 +74,12 @@ The Dutch Security Hotline hotline is part of the [Dutch Institute for Vulnerabi
 
 |                      | **Hotline**                            | **DIVD** |
 | Target               | Dutch network operators                | Everyone |
-| Type of report       | Vulnerability with one or more systems | A general vulnerability and a list of IP addresses |         
+| Type of report       | Vulnerability with one or more systems | A general vulnerability and a list of IP addresses |
 | Publication          | In principle, yes                      | No, unless the information is already available somewhere else |
 | Hall of fame         | Yes                                    | No |
 
 
-## What about the GDPR? 
+## What about the GDPR?
 
 IP addresses have marked as personal data by the Dutch Data Protection Authority. The Dutch Security Hotline processes personal data and follows the legal definition “[legitimate concern](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/mag-u-persoonsgegevens-verwerken)” for this.
 
