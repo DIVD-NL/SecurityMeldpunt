@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  securitymeldpunt:
+    build:
+      context: .
+    container_name: securitymeldpunt
+    command: /bin/sh -c "rm -rf _site/* && bundle exec jekyll serve --incremental --host=0.0.0.0"
+    ports:
+      - "4000:4000"
+    environment:
+      JEKYLL_GITHUB_TOKEN: ${JEKYLL_GITHUB_TOKEN}
