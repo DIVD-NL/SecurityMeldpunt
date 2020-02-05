@@ -2,7 +2,7 @@
 layout: post
 title: Wederom Citrix meldingen / Citrix notifications again
 author: Frank Breedijk
-excerpt: Op nog 70 nsystemen ontbreekt elke vorm van mitigatie, we gaan weer waarschuwen / We have identified 70 systems that still don;t have any mitigation in place, we are notifying again
+excerpt: Op nog 70 systemen ontbreekt elke vorm van mitigatie, we gaan weer waarschuwen / We have identified 70 systems that still don't have any mitigation in place, we are notifying again
 ---
 <small>[English below](#english)</small>
 
