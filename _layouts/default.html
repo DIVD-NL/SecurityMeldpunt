@@ -17,10 +17,10 @@
     </div>
 </section>
 {% else %}
-
 <!-- Heading -->
 <div id="heading" >
-    <h1>{{ page.header | default: page.title }}</h1>
+    <h1 class="project-name">{{ site.title }}</h1>
+    <p class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
 </div>
 
 <section id="main" class="wrapper">
