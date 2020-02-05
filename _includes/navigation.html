@@ -17,13 +17,8 @@
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="/">Home</a></li>
-        <li><a href="cases">Cases</a></li>
-        <li><a href="blog">Blog</a></li>
-        <li><a href="over-ons">Over ons</a></li>
-        <li><a href="faq">FAQ</a></li>
-        <li><a href="faq/15-helpen/">Helpen?</a></li>
-        <li><a href="feed.xml">RSS</a></li>
-        <li><a href="contact">Contact</a></li>
+		{% for item in site.data.navigation %}
+		<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+		{% endfor %}
     </ul>
 </nav>
