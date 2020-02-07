@@ -1,3 +1,7 @@
+---
+title: Spelregels
+---
+
 [English below](#english)
 
 ### Nederlands
@@ -14,7 +18,7 @@
 ## Wat we **niet** doen
 
 * Het meldpunt is geen "internet politie". Dat wil zeggen dat we melding slechts doorgeven aan de operators.
-* We houden geen statistieken bij over hoe specifieke beheerders onze meldingen opvolging en zullen hierover ook niet publiceren. 
+* We houden geen statistieken bij over hoe specifieke beheerders onze meldingen opvolging en zullen hierover ook niet publiceren.
 * Het meldpunt publiceert niet over kwetsbaarheden tenzij deze informatie reeds elders publiek beschikbaar is.
 * Wij benaderen geen particulieren.
 
