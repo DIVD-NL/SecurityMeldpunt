@@ -17,7 +17,7 @@ docker run --rm --volume="$PWD:/root/project:delegated" -p4000:4000 -ti ruby bas
 	bundle install --path=.bundle-cache
 	while [ 1 ] ; do
 		rm -rf _site/*
-		bundle exec jekyll serve --watch --incremental --host=0.0.0.0 # --verbose 2>/dev/null
+		bundle exec jekyll serve --incremental --host=0.0.0.0 # --verbose
 		set -e
 		echo 'Press CTRL+C now to quit'
 		sleep 1
