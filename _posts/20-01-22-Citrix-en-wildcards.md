@@ -6,7 +6,7 @@ excerpt: Het Security Meldpunt gaat meldingen versturen om beheerders te waarsch
 ---
 <small>[English below](#english)</small>
 
-Op meer dan 450 van de 700 door ons als kwetsbaar geïdentificeerde systemen zijn wildcard certificaten aanwezig. Het lekken van deze certificaten en de bijbehorende sleutels is niet alleen een risico voor de Citrix omgeving, maar stelt een aanvaller in staat om elke met TLS beveiligde verbinding naar systemen van die organisatie, te onderscheppen zonder dat de gebruiker daar een melding van krijgt.
+Op meer dan 450 van de 700 door ons als kwetsbaar geïdentificeerde systemen zijn wildcard certificaten aanwezig. Het lekken van deze certificaten en de bijbehorende sleutels is niet alleen een risico voor de Citrix omgeving, maar stelt een aanvaller in staat om elke met TLS beveiligde verbinding naar systemen van die organisatie te onderscheppen, zonder dat de gebruiker daar een melding van krijgt.
 
 Het Security Meldpunt gaat beheerders waarvan de systemen op de lijst staan waarschuwen.
 
