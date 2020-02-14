@@ -8,7 +8,7 @@ excerpt: Het lijkt erop dat een herstart van de Remote Dekstop Services nodig is
 
 ### Nederlands
 
-In reactie op onze meldingen hebben wij veel berichten ontvangen van organisaties die verbaasd waren dat onze scans de hun syststem als kwetsbaar identificeerden, terwijl de systemen in kwestie reeds eerder gepatached ware. Onderzoek lijkt erop te wijzen dat een restart van de machine of op zijn minst de Remote Desktop service noodzakelijk is om de patzach daadwerkelijk te activeren.
+In reactie op onze meldingen hebben wij veel berichten ontvangen van organisaties die verbaasd waren dat hun systemen als kwetsbaar werden geïdentificeerd door onze scans, terwijl de systemen in kwestie reeds eerder gepatched waren. Onderzoek lijkt erop te wijzen dat een herstart van het systeem, of op zijn minst de Remote Desktop service, noodzakelijk is om de patch daadwerkelijk te activeren.
 
 Het [DIVD](https://www.divd.nl) is hierover in contact met Microsoft.
 
@@ -20,7 +20,7 @@ De [case pagina](/DIVD-2020-00003) is bijgewerkt.
 
 ### English
 
-Based on our notification emails we got a lot of replies from organisationsthat were surprised that system that were patched some time ago still tested as vulnerable during our scan. Preliminary investigation shows indications that a reboot or at the very least a restart of the Remote Desktop Service is required to really activate the patch.
+In response to our reports, we have received many messages from organizations that were surprised that their systems were identified as vulnerable by our scans, while the systems in question had already been patched. Research seems to indicate that a restart of the system, or at least the Remote Desktop service, is necessary to actually activate the patch.
 
 The [DIVD](https://www.divd.nl) is discussing these findings with Microsoft.
 
