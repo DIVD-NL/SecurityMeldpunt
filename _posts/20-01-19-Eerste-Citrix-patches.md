@@ -6,9 +6,9 @@ excerpt: Citrix heeft patches beschikbaar gemaakt voor version 11.1 en 12.0 en v
 ---
 <small>[English below](#english)</small>
 
-Citrix heeft [zojuist bekend gemaakt](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) dat de patches voor versie 11.1 en 12.0 zijn vrijgegeven. en verwacht de patches voor versie 10.0, 12.1 en 13 op 24-1 vrij te geven. 
+Citrix heeft [zojuist bekend gemaakt](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) dat de patches voor versie 11.1 en 12.0 zijn vrijgegeven en verwacht de patches voor versie 10.0, 12.1 en 13 op 24-1 vrij te geven. 
 
-Het is belangrijk om, voor een systeem geptached wordt, uit te sluiten dat deze al door aanvallers is overgenomen. Dit kan door het uitvoeren van forensics (zie [blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), hiervoor is gedegen kennis nodig, of door het systeem opnieuw schoon op te bouwen op basis van een schoon [image van Citrix](https://www.citrix.com/downloads/citrix-adc/).
+Het is belangrijk om voordat een systeem gepatched wordt, uit te sluiten dat deze al door aanvallers is overgenomen. Dit kan door het uitvoeren van forensisch onderzoek (zie [blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), hiervoor is wel gedegen kennis nodig. Of door het systeem opnieuw schoon op te bouwen op basis van een schone [image van Citrix](https://www.citrix.com/downloads/citrix-adc/).
 
 We hebben de [case pagine](/cases/202001-Citrix-ADC/) bijgewerkt.
 
@@ -18,6 +18,6 @@ We hebben de [case pagine](/cases/202001-Citrix-ADC/) bijgewerkt.
 
 Citrix [just released](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) patches for version 11.1 and 12.0 and expects to release patches for version 10.0, 12.1 and 13 on 24-1.
 
-It is important to make sure that a system is not conpromised before it is patched. This can be done by either performing foresics (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/))  which requires in-depth knowledge, or by reinstalling the system from scratch using a clean image [downloaded form the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
+It is important to make sure that a system is not compromised before it is patched. This can be done by either performing forensics analysis (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), this requires in-depth knowledge. Or by reinstalling the system from scratch using a clean image [downloaded form the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
 
 We have updated the [case page](/cases/202001-Citrix-ADC/).
