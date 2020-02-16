@@ -8,7 +8,7 @@ excerpt: Op nog 70 systemen ontbreekt elke vorm van mitigatie, we gaan weer waar
 
 ### Nederlands
 
-Op 70 van de 546 initieel door ons geidentificeerde kwetsbare systemen is nog steeds geen enekele vorm van mitigatie toegepast. Van deze systemen kan met zekerheid worden aangenomen dat ze reeds door kwaadwillende zijn overgenomen. Wij gaan contact proberen op te nemen met eigenaren/gebruikersorganisaties van de systemen en beheerders van de netwerken waarin deze in staan met de volgende boodschap:
+Op 70 van de 546 initieel door ons geïdentificeerde kwetsbare systemen is nog steeds geen enkele vorm van mitigatie toegepast. Van deze systemen kan met zekerheid worden aangenomen dat ze reeds door kwaadwillende zijn overgenomen. Wij gaan contact proberen op te nemen met eigenaren/gebruikersorganisaties van de systemen en beheerders van de netwerken waarin deze systemen staan met de volgende boodschap:
 
 ```
 L.S.,
@@ -27,23 +27,23 @@ Van deze kwetsbaarheid wordt door kwaadwillenden (computercriminelen) op grote s
 geautomatiseerd misbruik gemaakt. Het is bekend dat zij dit lek gebruiken om gevoelige 
 informatie (persoonsgegevens, concurrentiegevoelige informatie, intellectueel eigendom, 
 bedrijfgeheimen, etc) te stelen, cryptomunten te minen en het netwerk verder binnen 
-te dringen om daar onder andere gijzelsoftware te installeren 
-(https://www.zdnet.com/article/hackers-target-unpatched-citrix-servers-to-deploy-ransomware/).
+te dringen om daar onder andere gijzelsoftware te installeren. 
+(https://www.zdnet.com/article/hackers-target-unpatched-citrix-servers-to-deploy-ransomware/)
 
 Op basis van wat wij nu zien is het zeker dat de onderstaande systemen:
-* Nog steeds kwetsbaar zijn
+* Nog steeds kwetsbaar zijn;
 * Hierop zelfs de eerste basismaatregelen zoals deze door CItirx zijn voorgeschreven op 
-  17-12 nog niet (succesvol) zijn uitgevoerd
+  17-12 nog niet (succesvol) zijn uitgevoerd.
 
 U kunt ervan uit gaan dat deze systemen reeds zijn overgenomen door een hacker. We raden 
 u dan ook aan om:
-* Deze systemen onmiddellijk offline te halen
+* Deze systemen onmiddellijk offline te halen;
 * Een onderzoek in te stellen om vast te stellen of de aanvallers het achterliggende netwerk 
-  (het bedrijfsnetwerk) zijn binnengedrongen
+  (het bedrijfsnetwerk) zijn binnengedrongen;
 * Melding te maken van een datalek bij de voor u geldende autoriteiten (in Nederland de 
-  Autoriteit persoonsgegevens)
+  Autoriteit persoonsgegevens).
 
-Wij doen een dringend beroep op netwerkbeheerders toegang van en naar deze systemen te 
+Wij doen een dringend beroep op netwerkbeheerders om toegang van en naar deze systemen te 
 blokkeren omdat zij een gevaar voor uw netwerk en de algemene veiligheid van het internet 
 vormen.
 
@@ -65,7 +65,7 @@ De [case pagina](/DIVD-2020-00002) geeft een overzicht van de situatie.
 
 ### English
 
-We have identified that mitigations are still missing on 70 of the 546 systems we initially identified as vulnerable. These systems have almost certainly been compromised by now. We are going to contract the organisation that use these systems and the administrators responsible for the network they are in with the following message:
+We have identified that mitigations are still missing on 70 of the 546 systems we initially identified as vulnerable. These systems can be assumed with certainty that they have already been compromised by now. We are going to contract the organisation that use these systems and the administrators responsible for the network they are in with the following message:
 
 
 ```
@@ -83,20 +83,20 @@ to penetrate systems. After penetration they use the Citrix systems to steal sen
 information (personal identifiable information, intellectual property, company secrets, 
 etc), mine cryptocurrency, and penetrate the corporate network e.g. to install 
 ransomware. 
-(https://www.zdnet.com/article/hackers-target-unpatched-citrix-servers-to-deploy-ransomware/).
+(https://www.zdnet.com/article/hackers-target-unpatched-citrix-servers-to-deploy-ransomware/)
 
 Based on our latest scans we are sure of the following:
-* The systems listed below are still vulnerable
+* The systems listed below are still vulnerable;
 * Even the first basic mitigation steps as described by Citrix on the 17th of December 
   have not been (successfully) taken.
 
 You will have to assume that these systems have been succesfully compromised. We 
 recommend you to:
-* Take these systems offline
+* Take these systems offline;
 * Start an investigation to determine if the attached (corporate) networks have been 
-  compromised
+  compromised;
 * Inform the proper authorities of a data leak (for The Netherlands: inform the Autoriteit 
-  Persoonsgegevens)
+  Persoonsgegevens).
 
 We are urgently requesting network administrators to block access to and from these systems, 
 because they are a threat to the safety/security of your network and the internet as a whole.
