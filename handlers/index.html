@@ -6,11 +6,11 @@ title: Handlers
 
 {% for p in site.pages %}
   {% if p.url contains "/handlers/" and p.url != page.url %}
-	<div class="handler">
-	  <h3>
-	    <a href="{{ p.url }}">{{ p.author }}</a>
-	  </h3>
-	  <p>{{ p.excerpt }}</p>
-	</div>
+	  <div class='caseitem'>
+		  <h2>
+		    <a href="{{ p.url }}">{{ p.author }}</a>
+		  </h2>
+		  <p>{{ p.excerpt }}</p>
+	  </div>
   {% endif %}
 {% endfor %}
