@@ -12,6 +12,7 @@ Deze kwetsbaarheid, omgedoopt naar de naam Ghostcat, werd ontdekt door onderzoek
 Op dit moment heeft het [DIVD](https://www.divd.nl) 773 Nederlandse kwetsbare IP-adressen gevonden. Het Security Meldpunt gaat deze lijst verder onderzoeken en proberen de eigenaren op de hoogte brengen.
 
 Het heeft de naam Ghostcat gekregen omdat de kwetsbaarheid in alle versies (Tomcat 9/8/7/6 en ouder) van de Apache Tomcat AJP connector zitten en zit er al meer dan 10 jaar in, vandaar Ghostcat.
+![Ghostcat](/assets/images/ghostcat-logo-small.png "Image copyright Chaitin Tech")
 
 Op diverse Github pagina's worden Proof of Concept (PoC) codes gedeeld die aantonen dat deze kwetsbaarheid te misbruiken is.
 Op 20 februari heeft [@chybeta](https://twitter.com/chybeta/status/1230489154468732928) gepubliceerd dat het is gelukt om code uit te voeren op het systeem via deze kwetsbaarheid. Dat betekent dat systemen gemakkelijk over te nemen zijn.
@@ -39,6 +40,7 @@ This vulnerability, renamed Ghostcat, was discovered by researchers at Chaitin T
 At the moment, the [DIVD] (https://www.divd.nl) has found 773 vulnerable Dutch IP addresses. Security Meldpunt will further investigate this list and try to inform the owners.
 
 It has been named Ghostcat because the vulnerability is present in all versions (Tomcat 9/8/7/6 and older) of the Apache Tomcat AJP connector and has been in it for more than 10 years, thats why it's called Ghostcat.
+![Ghostcat](/assets/images/ghostcat-logo-small.png "Image copyright Chaitin Tech")
 
 Proof of Concept (PoC) codes are shared on various Github pages that demonstrate that this vulnerability can be exploited. On February 20, [@chybeta](https://twitter.com/chybeta/status/1230489154468732928) published that it was possible to execute code on the system through this vulnerability. This means that systems can easily be taken over.
 
