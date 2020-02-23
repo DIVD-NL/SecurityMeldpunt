@@ -2,7 +2,7 @@
 layout: post
 title: Nederlands eigenaren kwetsbare Apache Tomcat AJP op de hoogte brengen / Notifying Dutch owners Apache Tomcat AJP vulnerability
 author: Jeroen van de Weerd
-excerpt: 773 Nederlandse ipadressen kwetsbaar voor Ghostcat - Apache Tomcat AJP File Read/Inclusion Vulnerability / 773 Dutch IP addresses vulnerable to Ghostcat - Apache Tomcat AJP File Read / Inclusion Vulnerability
+excerpt: 773 Nederlandse IP adressen kwetsbaar voor Ghostcat - Apache Tomcat AJP File Read/Inclusion Vulnerability / 773 Dutch IP addresses vulnerable to Ghostcat - Apache Tomcat AJP File Read / Inclusion Vulnerability
 ---
 <small>[English below](#english)</small>
 
