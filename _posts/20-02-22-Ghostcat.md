@@ -8,17 +8,17 @@ excerpt: 773 Nederlandse IP adressen kwetsbaar voor Ghostcat - Apache Tomcat AJP
 
 ### Nederlands
 
-Deze kwetsbaarheid, GhostCat genaamd, werd ontdekt door onderzoekers van Chaitin Tech https://www.chaitin.cn/en/ghostcat en  op 3 januari aan Apache Software Foundation gemeld. Op 20 februari 2020 publiceerde de China National Vulnerability Database (CNVD) een beveiligingsadvies voor CNVD-2020-10487, een ernstige kwetsbaarheid in Apache Tomcat's Apache JServ Protocol (of AJP). De kwetsbarheid heeft ook een CVE aanduiding gekregen, CVE-2020-1938.
+Deze kwetsbaarheid, GhostCat genaamd, werd ontdekt door onderzoekers van Chaitin Tech https://www.chaitin.cn/en/ghostcat en  op 3 januari aan Apache Software Foundation gemeld. Op 20 februari 2020 publiceerde de China National Vulnerability Database (CNVD) een beveiligingsadvies voor CNVD-2020-10487, een ernstige kwetsbaarheid in Apache Tomcat's Apache JServ Protocol (of AJP). De kwetsbaarheid heeft ook een CVE aanduiding gekregen, CVE-2020-1938.
 Op dit moment heeft het [DIVD](https://www.divd.nl) 773 Nederlandse kwetsbare IP-adressen gevonden. Het Security Meldpunt gaat deze lijst verder onderzoeken en proberen de eigenaren op de hoogte brengen.
 
-De kwetsbaarheid heeft de naam Ghostcat gekregen omdat de kwetsbaarheid in alle versies (Tomcat 9/8/7/6 en ouder) van de Apache Tomcat AJP connector zit, deze connector standaard aan staat. Deze kwetsbaarheid is in staat geweest meet dan 10 jaar onzichtbaar te blijven, vandaar Ghostcat.
+De kwetsbaarheid heeft de naam Ghostcat gekregen omdat de kwetsbaarheid in alle versies (Tomcat 9/8/7/6 en ouder) van de Apache Tomcat AJP connector zit, deze connector standaard aan staat. Deze kwetsbaarheid is in staat geweest meer dan 10 jaar onzichtbaar te blijven, vandaar Ghostcat.
 
 ![Ghostcat](/assets/images/ghostcat-logo-small.png "Image copyright Chaitin Tech")
 
 Op diverse Github pagina's zijn inmiddels Proof of Concept (PoC) programmas gedeeld die aantonen dat deze kwetsbaarheid te misbruiken is.
 Op 20 februari heeft [@chybeta](https://twitter.com/chybeta/status/1230489154468732928) gepubliceerd dat het, onder bepaalde omstandigheden, is gelukt om code uit te voeren op het systeem via deze kwetsbaarheid. Dat betekent dat systemen, die aan deze voorwaarden voldoen, gemakkelijk over te nemen zijn.
 
-Bij het uitbuiten van deze kwetsbaarheid kan de aanvaller de inhoud van alle configuratiebestanden en broncodebestanden van de webapps die op Tomcat zijn geïmplementeerd inzien. Als de applicatie het toestaat om bestanden te uploaden en deze binnen de root van de applicatie worden opgeslagen, kan een aanvaller een bestand met kwaadaardige JSP-scriptcode uploadenen deze hierna laten oppakken door de Ghostcat-kwetsbaarheid dit kan uiteindelijk leiden tot uitvoering van externe code.
+Bij het uitbuiten van deze kwetsbaarheid kan de aanvaller de inhoud van alle configuratiebestanden en broncodebestanden van de webapps die op Tomcat zijn geïmplementeerd inzien. Als de applicatie het toestaat om bestanden te uploaden en deze binnen de root van de applicatie worden opgeslagen, kan een aanvaller een bestand met kwaadaardige JSP-scriptcode uploaden en deze hierna laten oppakken door de Ghostcat-kwetsbaarheid, dit kan uiteindelijk leiden tot uitvoering van externe code.
 Apache heeft ondertussen al diverse updates uitgebracht om de kwetsbaarheid te verhelpen. De officieel versies 9.0.31, 8.5.51 en 7.0.100 zijn vrijgegeven om dit beveiligingslek te verhelpen.
 
 Als de AJP Connector service niet wordt gebruikt dan raden wij aan om direct te updaten naar de nieuwe uitgegeven versies. Lukt het niet om te updaten, om welke reden dan ook, dan kunt u het beste de regel, "Connector port="8009" protocol="AJP/1.3" redirectPort=8443" in /conf/server.xml uit commentariëren. Let op, het poortnummer kan anders zijn dan in dit voorbeeld. U kunt ook firewall regels instellen om toegang tot de AJP connector verder te minimaliseren.
