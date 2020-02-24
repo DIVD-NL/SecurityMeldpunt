@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Slachtoffers ven het Mirai botnet op de hoogte brengen / Notifying Mirai botnet victims
+title: Slachtoffers van het Mirai botnet op de hoogte brengen / Notifying Mirai botnet victims
 author: Sander Spierenburg
 excerpt: Een lijst met ruim 500k+ botnet slachtoffers is gepubliceerd / A list of Mirai botnet victims has been published exposing a total of 500K+ systems
 ---
@@ -10,7 +10,7 @@ Het Mirai botnet is een oude bekende. Eind vorig jaar is een aantal keer een gro
 
 Dit is de eerste keer dat we onze pijlen richten op het informeren van echte slachtoffers van een hack i.p.v. het vragen van aandacht voor een eerder gepubliceerde kwetsbaarheid.
 
-Op onze [case pagina](/DIVD-2020-00004/) staat up-to-date en getailleerde informatie.
+Op onze [case pagina](/DIVD-2020-00004/) staat up-to-date en gedetailleerde informatie.
 
 
 <hr>

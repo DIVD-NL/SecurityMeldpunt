@@ -10,16 +10,16 @@ excerpt: Het Security Meldpunt adviseerd dringend patches uit te rollen en gaat 
 
 Op 14 januari bracht Microsoft twee zeer kritieke updates uit met een [CVSS score van .8](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?calculator&version=3&vector=(CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C)) voor de Windows 2012, 2012R2, 2016 en 2019 Server platformen. 
 
-Deze patches verhielpen een kwetsbaarheid in Windows Remote Desktop Gateway (RD Gateway), een concurrent van Citrix. Misbruik van de kwetsbaarheid kan leiden tot onbeschikbaarheid (DoS, Denial of Service) en de mogelijk om willekeurige code op het systeem uit te voeren (RCE, Remote Command Execution).
+Deze patches verhelpen een kwetsbaarheid in Windows Remote Desktop Gateway (RD Gateway), een concurrent van Citrix. Misbruik van de kwetsbaarheid kan leiden tot onbeschikbaarheid (DoS, Denial of Service) en de mogelijkheid om willekeurige code op het systeem uit te voeren (RCE, Remote Command Execution).
 
 Deze kwetsbaarheden zijn verholpen na het uitvoeren van de updates van Patchtuesday van januari 2020. 
 
-Vandaag is door [@layle_ctf](https://twitter.com/layle_ctf/status/1221514332049113095) gepubliceerd dat het is gelukt om code uit te voeren op het systeem via deze kwetsbaarheid. Dat betekent dat, system dus gemakkelijk over te nemen zijn.
+Vandaag is door [@layle_ctf](https://twitter.com/layle_ctf/status/1221514332049113095) gepubliceerd dat het is gelukt om code uit te voeren op het systeem via deze kwetsbaarheid. Dat betekent dat systemen gemakkelijk over te nemen zijn.
 
-Op dit moment heeft het [DIVD](https://www.divd.nl) zo'n 16 duizend kwetsbare systemen op het internet gevonden waaronder ca. 1130 Nederlandse systemen.
-Het Security Meldpunt gaat netwerk beheerders van de netwerken waar dezen systemen gevonden zijn actief  waarschuwen.
+Op dit moment heeft het [DIVD](https://www.divd.nl) zo'n 16 duizend kwetsbare systemen op het internet gevonden, waaronder ca. 1130 Nederlandse systemen.
+Het Security Meldpunt gaat netwerk beheerders van de netwerken waar deze systemen gevonden zijn actief waarschuwen.
 
-De kwetsbaarheid van deze systemen is vastgesteld met behulp van de door [ollypwn op GitHub gepubliceerde](https://github.com/ollypwn/BlueGate) code.
+De kwetsbaarheid van deze systemen is vastgesteld met behulp van de door [ollypwn op GitHub](https://github.com/ollypwn/BlueGate) gepubliceerde code.
 
 Achtergrond en update info:
 * [CVE-2020-0609](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0609) 
@@ -36,7 +36,7 @@ Meer informatie en de laatste stand van zaken met betrekking tot deze case wordt
 
 On January 14th Microsoft patched two critical vulnerabilities in Windows Server 2012, 2012R2, 2016 and 2019 with a [CVSS score off 9.8](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?calculator&version=3&vector=(CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C))
 
-Impact is both DOS (Denial Of Service) and RCE (Remote Command Execution), functional impact van cause of fully take over of the system and it's information. Patches of January 2020 are effective and highly recommended to deploy asap.
+Impact is both DOS (Denial Of Service) and RCE (Remote Command Execution), a functional impact can be a complete takeover of the system and it's information. Patches of January 2020 are effective and highly recommended to deploy asap.
 
 Today a working POC of the RCE was announced by @layle_ctf (https://twitter.com/layle_ctf/status/1221514332049113095)
 
