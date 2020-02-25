@@ -4,7 +4,7 @@ excerpt: Handler
 layout: bio
 ---
 
-[Barry van Kampen](https://www.linkedin.com/in/bvankampen/) is een handler bij Het Nederlands Security Melpunt. In het dagelijks leven is hij een van de directeuren van [The S-Unit](https://www.the-s-unit.nl/).
+[Barry van Kampen](https://www.linkedin.com/in/bvankampen/) is een handler bij Het Nederlands Security Meldpunt. In het dagelijks leven is hij een van de directeuren van [The S-Unit](https://www.the-s-unit.nl/).
 
 ### English
 

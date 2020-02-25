@@ -8,5 +8,5 @@ layout: bio
 
 ### English
 
-[Frank Breedijk](https://www.linkedin.com/in/seccubus/) is the initiator, coordinator and press contact of the Dtuch Security Hotline. His day job is CISO of [Schuberg Philis](https://www.schubergphilis.com).
+[Frank Breedijk](https://www.linkedin.com/in/seccubus/) is the initiator, coordinator and press contact of the Dutch Security Hotline. His day job is CISO of [Schuberg Philis](https://www.schubergphilis.com).
 
