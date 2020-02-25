@@ -6,7 +6,7 @@ title: Over ons
 
 ## Over ons...
 
-Het Nederlands Security Meldpunt is een groep vrijwillers, onderdeel van het [Dutch Institute for Vulnerability Disclosure](https://divd.nl), die het zich tot taak heeft gesteld eigenaren van Nederlandse netwerkblokken en websites te informeren over (cyber) security zaken die bij het meldpunt gemeld worden.
+Het Nederlands Security Meldpunt is een groep vrijwilligers, onderdeel van het [Dutch Institute for Vulnerability Disclosure](https://divd.nl), die het zich tot taak heeft gesteld eigenaren van Nederlandse netwerkblokken en websites te informeren over (cyber) security zaken die bij het meldpunt gemeld worden.
 
 ## Onze missie...
 
@@ -16,11 +16,11 @@ We doen dit op zijn Nederlands: Open, Eerlijk, Samen en zonder kosten.
 
 ## Wat we doen...
 
-Als iemand een incident (kwetsbaarheid/infectie/andere zaak) in meedere systemen bij ons meldt, dan zullen we deze valideren. Na validatie zullen we kijken welke netwerkbeerder(s) bij de getroffen IP adressen horen en aan deze partijen een melding sturen. Deze melding bevat een omschrijving van het incident (eventueel via een [blog post](/blog/)) en de getroffen IP adressen
+Als iemand een incident (kwetsbaarheid/infectie/andere zaak) in meedere systemen bij ons meldt, dan zullen we deze valideren. Na validatie zullen we kijken welke netwerkbeheerder(s) bij de getroffen IP adressen horen en aan deze partijen een melding sturen. Deze melding bevat een omschrijving van het incident (eventueel via een [blog post](/blog/)) en de getroffen IP adressen.
 
 ## Wat we **niet** doen
 
-Het meldpunt is geen "internet politie". Dat wil zeggen dat we melding slechts doorgeven aan de operators, we houden geen statistieken bij over de opvolging en zullen hierover ook niet publiceren. Het meldpunt publiceert niet over kwetsbaarheden tenzij deze informatie reeds elders publiek beschikbaar is.
+Het meldpunt is geen "internet politie". Dat wil zeggen dat we meldingen slechts doorgeven aan de operators, we houden geen statistieken bij over de opvolging en zullen hierover ook niet publiceren. Het meldpunt publiceert niet over kwetsbaarheden tenzij deze informatie reeds elders publiek beschikbaar is.
 Wij benaderen geen particulieren.
 
 ## DIVD
@@ -42,7 +42,7 @@ Volgens de AP mag een organisatie zich beroepen op een gerechtvaardigd belang al
 (2) de verwerking is noodzakelijk om dit gerechtvaardigde belang te behartigen en
 (3) u heeft een afweging gemaakt tussen uw belangen en die van de personen van wie u persoonsgegevens verwerkt.
 
-Het doel van het meldpunt is Nederland (Cyber) veiliger te maken door netwerkbeheerders te informeren over incidenten in hun netwerk zodat zij deze kunnen verhelpen. Een veiliger Nederland in het algmeen belang.
+Het doel van het meldpunt is Nederland (Cyber) veiliger te maken door netwerkbeheerders te informeren over incidenten in hun netwerk zodat zij deze kunnen verhelpen. Een veiliger Nederland is het algemene belang.
 Verwerking van IP adressen is noodzakelijk om netwerkbeheerders op de hoogte te brengen van security problemen in hun netwerk, zonder IP adressen is deze informatie zo goed als nutteloos.
 Melding van het incident aan de operator is ook in het belang van de personen waar de IP adressen eventueel bij behoren. Het oplossen van het incident is immers ook in het belang van deze personen.
 
@@ -70,7 +70,7 @@ We only pass on the notification to the operators; we do not keep statistics abo
 
 ## DIVD
 
-The Dutch Security Hotline hotline is part of the [Dutch Institute for Vulnerability Disclosure](https://divd.nl). The Dutch Security Hotline  differs in a number of cases with regard to the DIVD.
+The Dutch Security Hotline is part of the [Dutch Institute for Vulnerability Disclosure](https://divd.nl). The Dutch Security Hotline differs in a number of cases with regard to the DIVD.
 
 |                      | **Hotline**                            | **DIVD** |
 | Target               | Dutch network operators                | Everyone |
@@ -89,4 +89,4 @@ According to the Dutch Data Protection Authority, an organization may invoke a l
 (2) the processing is necessary to represent this legitimate interest and
 (3) you have made an assessment between your interests and those of the persons whose personal data you are processing.
 
-The purpose of the Dutch Security Hotline is to make the Netherlands (Cyber) safer by informing network administrators about incidents in their network so that they can resolve it. A safer Netherlands in the public interest. Processing of IP addresses is necessary to inform network administrators of security problems in their network; without IP addresses, this information is virtually useless. Reporting the incident to the operator is also in the interest of the persons to whom the IP addresses possibly belong. After all, resolving an incident is also in the interest of these people.
+The purpose of the Dutch Security Hotline is to make the Netherlands (Cyber) safer by informing network administrators about incidents in their network so that they can resolve it. A safer Netherlands is the public interest. Processing of IP addresses is necessary to inform network administrators of security problems in their network; without IP addresses, this information is virtually useless. Reporting the incident to the operator is also in the interest of the persons to whom the IP addresses possibly belong. After all, resolving an incident is also in the interest of these people.
