@@ -4,7 +4,7 @@ excerpt: Handler
 layout: bio
 ---
 
-[Richard Masmeijer](https://www.linkedin.com/in/richard-masmeijer/) is een handler bij Het Nederlands Security Melpunt. In het dagelijks leven is hij security incident responder bij de Nederlandse Spoorwegen.
+[Richard Masmeijer](https://www.linkedin.com/in/richard-masmeijer/) is een handler bij Het Nederlands Security Meldpunt. In het dagelijks leven is hij security incident responder bij de Nederlandse Spoorwegen.
 
 ### English
 
