@@ -9,9 +9,9 @@ excerpt: 773 Nederlandse IP adressen kwetsbaar voor Ghostcat - Apache Tomcat AJP
 ### Nederlands
 
 Deze kwetsbaarheid, GhostCat genaamd, werd ontdekt door onderzoekers van Chaitin Tech https://www.chaitin.cn/en/ghostcat en  op 3 januari aan Apache Software Foundation gemeld. Op 20 februari 2020 publiceerde de China National Vulnerability Database (CNVD) een beveiligingsadvies voor CNVD-2020-10487, een ernstige kwetsbaarheid in Apache Tomcat's Apache JServ Protocol (of AJP). De kwetsbaarheid heeft ook een CVE aanduiding gekregen, CVE-2020-1938.
-Op dit moment heeft het [DIVD](https://www.divd.nl) 773 Nederlandse kwetsbare IP-adressen gevonden. Het Security Meldpunt gaat deze lijst verder onderzoeken en proberen de eigenaren op de hoogte brengen.
+Op dit moment heeft het [DIVD](https://www.divd.nl) 773 Nederlandse kwetsbare IP-adressen gevonden. Het Security Meldpunt gaat deze lijst verder onderzoeken en probeert de eigenaren op de hoogte te brengen.
 
-De kwetsbaarheid heeft de naam Ghostcat gekregen omdat de kwetsbaarheid in alle versies (Tomcat 9/8/7/6 en ouder) van de Apache Tomcat AJP connector zit, deze connector standaard aan staat. Deze kwetsbaarheid is in staat geweest meer dan 10 jaar onzichtbaar te blijven, vandaar Ghostcat.
+De kwetsbaarheid heeft de naam Ghostcat gekregen omdat de kwetsbaarheid in alle versies (Tomcat 9/8/7/6 en ouder) van de Apache Tomcat AJP connector zit, deze connector staat standaard aan. Deze kwetsbaarheid is in staat geweest meer dan 10 jaar onzichtbaar te blijven, vandaar Ghostcat.
 
 ![Ghostcat](/assets/images/ghostcat-logo-small.png "Image copyright Chaitin Tech")
 
@@ -40,11 +40,11 @@ Meer informatie en de laatste stand van zaken met betrekking tot deze case wordt
 This vulnerability, dubbed Ghostcat, was discovered by researchers at [Chaitin Tech](https://www.chaitin.cn/en/ghostcat) and reported to Apache Software Foundation on January 3. On February 20, 2020, the China National Vulnerability Database (CNVD) published a security advisory for CNVD-2020-10487, a serious vulnerability in Apache Tomcat's Apache JServ Protocol (or AJP). The vulnerability has also been given a CVE designation, CVE-2020-1938.
 At the moment, the [DIVD](https://www.divd.nl) has found 773 vulnerable Dutch IP addresses. Security Meldpunt will further investigate this list and try to inform the owners.
 
-It has been named Ghostcat because the vulnerability is present in all versions (Tomcat 9/8/7/6 and older) of the Apache Tomcat AJP connector and has been in it for more than 10 years which getting noticed, thats why it's called Ghostcat.
+It has been named Ghostcat because the vulnerability is present in all versions (Tomcat 9/8/7/6 and older) of the Apache Tomcat AJP connector and has been in it for more than 10 years without getting noticed, thats why it's called Ghostcat.
 
 ![Ghostcat](/assets/images/ghostcat-logo-small.png "Image copyright Chaitin Tech")
 
-Proof of Concept (PoC) code is shared on various Github pages that demonstrate that this vulnerability can be exploited. On February 20, [@chybeta](https://twitter.com/chybeta/status/1230489154468732928) published that it was possible, under certain conditions, to execute code on the system through this vulnerability. This means that systems meetining these conditions can easily be taken over.
+Proof of Concept (PoC) code is shared on various Github pages that demonstrate that this vulnerability can be exploited. On February 20, [@chybeta](https://twitter.com/chybeta/status/1230489154468732928) published that it was possible, under certain conditions, to execute code on the system through this vulnerability. This means that systems that meet these conditions are easy to take over.
 
 When exploiting this vulnerability, the attacker can view the contents of all configuration files and source code files of the web apps implemented on Tomcat. If the website application allows files to be uploaded within the root of the web applicaitons, an attacker can upload a file with malicious JSP script code that can then picked up by the Ghostcat vulnerability, which leads to remote code execution.
 Apache has already released several updates to fix the vulnerability. The official versions 9.0.31, 8.5.51 and 7.0.100 have been released to address this vulnerability.
