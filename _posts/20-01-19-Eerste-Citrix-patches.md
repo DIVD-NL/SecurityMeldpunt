@@ -18,6 +18,6 @@ We hebben de [case pagine](/cases/202001-Citrix-ADC/) bijgewerkt.
 
 Citrix [just released](https://www.citrix.com/blogs/2020/01/19/vulnerability-update-first-permanent-fixes-available-timeline-accelerated/) patches for version 11.1 and 12.0 and expects to release patches for version 10.0, 12.1 and 13 on 24-1.
 
-It is important to make sure that a system is not compromised before it is patched. This can be done by either performing forensics analysis (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), this requires in-depth knowledge. Or by reinstalling the system from scratch using a clean image [downloaded form the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
+It is important to make sure that a system is not compromised before it is patched. This can be done by either performing forensics analysis (see our [blog](/2020/01/15/How-to-check-your-Citrix-gateway/)), this requires in-depth knowledge. Or by reinstalling the system from scratch using a clean image [downloaded from the Citrix site](https://www.citrix.com/downloads/citrix-adc/).
 
 We have updated the [case page](/cases/202001-Citrix-ADC/).
