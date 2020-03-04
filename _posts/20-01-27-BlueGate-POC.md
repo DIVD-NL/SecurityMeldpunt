@@ -34,13 +34,13 @@ Meer informatie en de laatste stand van zaken met betrekking tot deze case wordt
 
 ### English
 
-On January 14th Microsoft patched two critical vulnerabilities in Windows Server 2012, 2012R2, 2016 and 2019 with a [CVSS score off 9.8](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?calculator&version=3&vector=(CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C))
+On January 14th Microsoft released patches for two critical vulnerabilities found in Windows Server 2012, 2012R2, 2016 and 2019 with a [CVSS score off 9.8](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?calculator&version=3&vector=(CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C))
 
 Impact is both DOS (Denial Of Service) and RCE (Remote Command Execution), a functional impact can be a complete takeover of the system and it's information. Patches of January 2020 are effective and highly recommended to deploy asap.
 
 Today a working POC of the RCE was announced by @layle_ctf (https://twitter.com/layle_ctf/status/1221514332049113095)
 
-At the time of writing [DIVD](https://www.divd.nl) researchers determined that there are more then 16 thousand systems vulnerable, approimately 1140 of these are Dutch servers.
+At the time of writing [DIVD](https://www.divd.nl) researchers determined that there are more than 16 thousand systems vulnerable, approximately 1140 of these are Dutch servers.
 
 We are going to notify administrators of the vulnerable systems.
 

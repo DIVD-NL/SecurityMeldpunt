@@ -65,7 +65,7 @@ De [case pagina](/DIVD-2020-00002) geeft een overzicht van de situatie.
 
 ### English
 
-We have identified that mitigations are still missing on 70 of the 546 systems we initially identified as vulnerable. These systems can be assumed with certainty that they have already been compromised by now. We are going to contract the organisation that use these systems and the administrators responsible for the network they are in with the following message:
+We have identified that mitigations are still missing on 70 of the 546 systems we initially identified as vulnerable. It can be assumed with certainty that these systems have already been compromised by now. We are going to contract the organisations that use these systems and the administrators responsible for the network they are in with the following message:
 
 
 ```
