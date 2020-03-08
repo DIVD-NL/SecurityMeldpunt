@@ -1,0 +1,53 @@
+version: 2
+jobs:
+
+  build:
+    docker:
+      - image: mrseccubus/github-pages:latest
+    steps:
+      - run: (cd /root/;rm -rf project;mkdir project)
+      - checkout
+      - run:
+          name: Build site
+          command: |
+            jekyll build 2>&1|grep -v 'warning:' 
+      - save_cache:
+          key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - "/root/project/_site"
+
+
+  upload:
+    docker:
+      - image: alpine:latest
+    steps:
+      - run:
+          name: Install software
+          command: |
+            apk update;
+            apk add rsync openssh sshpass;
+            echo "set ftp:passive-mode true" > ~/.lftprc
+      - restore_cache:
+          key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
+      - run:
+          name: Upload
+          command: |
+            mkdir ~/.ssh;
+            echo  "upload.bit.nl,213.136.12.217 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIVx+0N0LECcGHPywPCk9uz4/l3kNUVNe5QQRleIkMCTarkYauvRrPNPl49x3LIjF6cZsmQZX7jwgsJqEzfcF98=" > ~/.ssh/known_hosts;
+            cd /root/project/_site
+            sshpass -e rsync -av . www-abuse@upload.bit.nl:htdocs
+
+
+
+workflows:
+  version: 2
+  build_and_upload:
+    jobs:
+      - build
+      - upload:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - not_even_on_master
