@@ -10,7 +10,7 @@ jobs:
       - run:
           name: Build site
           command: |
-            jekyll build
+            jekyll build 2>&1|grep -v 'warning:' 
       - save_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
           paths:
