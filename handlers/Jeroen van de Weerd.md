@@ -4,7 +4,7 @@ excerpt: Handler
 layout: bio 
 ---
 
-[Jeroen van de Weerd](https://www.linkedin.com/in/jvandeweerd/) is een handler bij Het Nederlands Security Melpunt. In het dagelijks leven is hij Technical Information Security Specialist van de Nederlandse Zorgautoriteit.
+[Jeroen van de Weerd](https://www.linkedin.com/in/jvandeweerd/) is een handler bij Het Nederlands Security Meldpunt. In het dagelijks leven is hij Technical Information Security Specialist van de Nederlandse Zorgautoriteit.
 
 ### English
 
