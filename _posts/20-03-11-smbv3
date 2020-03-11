@@ -1,0 +1,20 @@
+---
+layout: post
+title: Ernstig ongepatched lek in SMB v3  / Critical unpatched vulnerability in SMB v3
+author: Barry van Kampen
+excerpt:  CVE-2020-0796 / ADV200005 SMB remote code execution vulnerability
+---
+<small>[English below](#english)</small>
+
+### Nederlands
+Op patch dinsdag van 10 maart heeft Microsoft informatie gepubliceerd over een ernstige kwetsbaarheid in Microsofts Server Message Block protocol versie 3. Het betreft een Buffer Overflow kwetsbaarheid in het afhandelen van een speciaal gefabriceerd gecomprimeerd bestand. Hierdoor kan een aanvaller ongeautoriseerd code uitvoeren op de kwetsbare systemen.
+
+Op het moment van schrijven is er nog geen bekende exploit beschikbaar voor deze kwetsbaarheid maar het Security Meldpunt onderzoekt de kwetsbaarheid en het mogelijk voorkomen van kwetsbare systemen in Nederland.
+
+Meer informatie en advies wordt bijgewerkt in de Case: [[/cases/DIVD-2020-00006.md]]
+
+### English
+
+Microsoft released a number of patches on Tuesday, 10 March. For an unknown reason, Cisco Talos and Fortinet have published additional information with data about a vulnerability in Microsoft's Server Message Block protocol. The vulnerability is due to an error when the vulnerable software handles a maliciously crafted compressed data packet. A remote, unauthenticated attacker can exploit this to execute arbitrary code within the context of the application.
+
+At the time of writing no know exploits are detected in the wild but we are monitoring and investigating the situation in the Netherlands.
