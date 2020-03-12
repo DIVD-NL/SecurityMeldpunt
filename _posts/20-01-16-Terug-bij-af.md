@@ -4,7 +4,6 @@ title: Citrix mitigatie blijkt niet betrouwbaar / Citrix mitigation turns out to
 author: Frank Breedijk
 excerpt: De mitigatie voorgesteld door Citrix lijk onbetrouwbaar. Terug bij af. 😢 / Citrix's mitigation is unreliable. We are back to square one 😢
 ---
-<small>[English below](#english)</small>
 
 Zojuist kwam het NCSC met [dit nieuwsbericht](https://www.ncsc.nl/actueel/nieuws/2020/januari/16/door-citrix-geadviseerde-mitigerende-maatregelen-niet-altijd-effectief). 
 
