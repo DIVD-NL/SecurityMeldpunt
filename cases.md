@@ -8,7 +8,10 @@ title: Cases
 <div class="caseitem">
 <h3><a href="{{ p.url }}">{{ p.title }}</a><em><a href='/handlers/{{ p.author | default: "anonymous" }}'>{{ p.author | default: "anonymous" }}</a></em>
 </h3>
-<p>{{ p.excerpt }}</p>
+<p>
+	Status: {{ p.status | default: "open" }}<br>
+	{{ p.excerpt }}
+</p>
 <a href="{{ p.url }}">Lees meer</a>
 </div>
 {% endif %}
