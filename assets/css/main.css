@@ -2805,8 +2805,6 @@ body {
 .nav .icon {
   display: none;
   padding: 1em;
-    display: flex;
-    justify-content: space-between;
 }
 
 .icon i {
