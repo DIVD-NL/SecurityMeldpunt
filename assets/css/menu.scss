@@ -267,7 +267,7 @@ $menu-link-padding: 1em;
 // 
 {% endcomment %}
 
-@media only screen and (min-width: 736) {
+@media only screen and (min-width: 736px) {
   .nav {
     // 1 //
     .menu {
@@ -467,4 +467,3 @@ Show the link that contains should open and close the topnav (.icon) */
     right: 0;
     top: 0;
   }
-}
