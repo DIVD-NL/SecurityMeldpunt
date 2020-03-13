@@ -13,9 +13,12 @@
         <span class="logo"><a href="/">Home</a> / {{ page.title | capitalize }}</span>
     {% endif %}
 {% endif %}
-    <nav><a href="#menu">Menu</a></nav>
+    {% comment %}
+        <nav><a href="#menu">Menu</a></nav>
+    {% endcomment %}
 </header>
 
+{% comment %}
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
@@ -24,3 +27,4 @@
 		{% endfor %}
     </ul>
 </nav>
+{% endcomment %}

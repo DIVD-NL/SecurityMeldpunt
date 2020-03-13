@@ -1798,7 +1798,7 @@ ul.icons {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1972,7 +1972,7 @@ ul.icons {
   #banner p {
     font-size: 1.5rem; }
   #banner a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     text-decoration: none; }
     #banner a:hover {
       color: #ffffff; }
@@ -2487,7 +2487,7 @@ body {
 /* Heading */
 #heading {
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
   background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("/assets/images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
