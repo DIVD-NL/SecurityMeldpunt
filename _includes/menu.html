@@ -29,7 +29,10 @@ Example:
 {% endcomment %}
 
 <nav class="nav nav--cen">
-	<ul class="menu">
+	<a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+		<i class="fa fa-bars"></i> Menu
+	  </a>
+	<ul class="menu" id="nav_menu">
 		{% for item in site.data.navigation %}
 			{% if item.link == "/cases/" %}
 		    	<li class="menu-item has-children">
