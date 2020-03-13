@@ -43,3 +43,13 @@
 			});
 
 })(jQuery);
+
+/* Toggle between adding and removing the "responsive" class to menu when the user clicks on the icon */
+function menuFunction() {
+	var x = document.getElementById("nav_menu");
+	if (x.className === "menu") {
+	  x.className += " responsive";
+	} else {
+	  x.className = "menu";
+	}
+  }
