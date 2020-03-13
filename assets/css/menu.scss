@@ -267,7 +267,7 @@ $menu-link-padding: 1em;
 // 
 {% endcomment %}
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 736) {
   .nav {
     // 1 //
     .menu {
@@ -435,5 +435,36 @@ $menu-link-padding: 1em;
         }
       }
     }
+  }
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.nav .icon {
+  display: none;
+  padding: 1em;
+}
+
+.icon i {
+  padding-right: .5em;
+}
+
+/* When the screen is less than 736 pixels wide, hide menu. 
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 736px) {
+  .menu {display: none;}
+  .nav a.icon {
+    right: 0;
+    top: 0;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the menu with JavaScript when the user clicks on the icon. */
+@media screen and (max-width: 736px) {
+  .menu.responsive {display: block;}
+  .menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
