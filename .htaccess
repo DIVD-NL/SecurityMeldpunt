@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{HTTP:X-HTTPS-SESSION} !^yes$
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+SetEnvIfNoCase X-HTTPS-Session Yes is_ssl=yes
+SetEnvIfNoCase X-HTTPS-Session Yes is_https=yes
+SetEnvIfNoCase X-HTTPS-Session Yes HTTPS=on
+
+Header always set Strict-Transport-Security "max-age=63072000; includeSubdomains;"
+Header always append X-Frame-Options DENY
+Header set X-Content-Type-Options nosniff
+Header set X-XSS-Protection "1; mode=block"
+Header set Content-Security-Policy "default-src 'unsafe-inline' 'unsafe-eval' 'self'; worker-src blob:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com"
+Header always set Referrer-Policy "same-origin"
