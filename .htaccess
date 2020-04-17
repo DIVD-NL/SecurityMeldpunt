@@ -2,5 +2,5 @@ Header always set Strict-Transport-Security "max-age=63072000; includeSubdomains
 Header always append X-Frame-Options DENY
 Header set X-Content-Type-Options nosniff
 Header set X-XSS-Protection "1; mode=block"
-Header set Content-Security-Policy "default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self'; base-uri 'self';form-action 'self'; font-src 'self' https://fonts.gstatic.com"
+Header set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/"
 Header always set Referrer-Policy "same-origin"
