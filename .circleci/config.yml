@@ -50,5 +50,4 @@ workflows:
           filters:
             branches:
               only:
-                - to_bit
                 - master
