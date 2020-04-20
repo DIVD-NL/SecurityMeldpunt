@@ -11,7 +11,7 @@ Het Security Meldpunt wordt gerunt door een klein kernteam van vrijwilligers met
 
 ## Aanmelden als vrijwilliger?
 
-Dat kan via dit [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfQ2zq0jwRo5jnShl-RbNbnqcsUMnyAABCGXcQGvEtR79xn2g/viewform)
+We hebben momenteel meer dan genoeg aanmeldingen voor vrijwilligers. Dank voor jullie hulp. 
 
 ### English
 
@@ -21,4 +21,4 @@ The security Hotline is run by a small core team of volunteers with solid Securi
 
 ## How to volunteer?
 
-Please use this [Google form](https://docs.google.com/forms/d/e/1FAIpQLSfQ2zq0jwRo5jnShl-RbNbnqcsUMnyAABCGXcQGvEtR79xn2g/viewform)
+Currently we have more than enough volunteers. Thanks for your help. 
