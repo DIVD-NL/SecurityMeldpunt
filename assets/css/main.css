@@ -2827,3 +2827,8 @@ body.is-menu-visible #menu {
 #skip-to-content {
   position: absolute;
   top: -10em; }
+
+.project-tagline {
+  z-index: 2;
+  position: relative;
+}
