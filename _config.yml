@@ -22,3 +22,8 @@ github:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+
+# Custom headers
+webrick:
+  headers:
+    Content-Security-Policy: default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self' ; style-src 'self' https://fonts.googleapis.com/;
