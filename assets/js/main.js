@@ -52,4 +52,5 @@ function menuFunction() {
 	} else {
 	  x.className = "menu";
 	}
+	event.preventDefault()
   }
