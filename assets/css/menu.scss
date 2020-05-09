@@ -87,6 +87,12 @@ $menu-link-padding: 1em;
 
 // Zero-down the margin and the padding for menu-lists if not done
 // in the base reset
+
+.black_url {
+  color: black !important;
+}
+
+
 .menu,
 .sub-menu {
   margin: 0;
