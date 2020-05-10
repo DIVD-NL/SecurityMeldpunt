@@ -54,3 +54,7 @@ function menuFunction() {
 	}
 	event.preventDefault()
   }
+
+  document.getElementById("menuBtn").addEventListener("click", function(){
+	menuFunction()
+  });
