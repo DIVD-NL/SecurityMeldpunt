@@ -8,5 +8,5 @@ layout: bio
 
 ### English
 
-[Barry van Kampen](https://www.linkedin.com/in/bvankampen/) is  handler at The Dutch Security Hotline. He is also a director of [The S-Unit](https://www.the-s-unit.nl/).
+[Barry van Kampen](https://www.linkedin.com/in/bvankampen/) is  handler at The Dutch Security Hotline. het is also a director of [The S-Unit](https://www.the-s-unit.nl/).
 
