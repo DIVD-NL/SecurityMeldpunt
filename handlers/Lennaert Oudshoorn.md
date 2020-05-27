@@ -1,12 +1,12 @@
 ---
-author: Barry van Kampen
+author: Lennaert Oudshoorn
 excerpt: Handler
 layout: bio
 ---
 
-[Barry van Kampen](https://www.linkedin.com/in/bvankampen/) is een handler bij Het Nederlands Security Meldpunt. In het dagelijks leven is hij een van de directeuren van [The S-Unit](https://www.the-s-unit.nl/).
+[Lennaert Oudshoorn](https://twitter.com/lennaert89) is een handler bij Het Nederlands Security Meldpunt. In het dagelijks leven is hij student Forensische Informatica aan de Hogeschool Leiden.
 
 ### English
 
-[Barry van Kampen](https://www.linkedin.com/in/bvankampen/) is  handler at The Dutch Security Hotline. het is also a director of [The S-Unit](https://www.the-s-unit.nl/).
+[Lennaert Oudshoorn](https://twitter.com/lennaert89) is  handler at The Dutch Security Hotline. He studies Digital Forensics at the University of Applied Sciences in Leiden. 
 
