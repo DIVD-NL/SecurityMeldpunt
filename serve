@@ -1,4 +1,4 @@
 #!/bin/bash
 
 docker pull mrseccubus/github-pages:latest
-docker run --volume="$PWD:/root/project:delegated" --publish 4000:4000 -ti mrseccubus/github-pages
+docker run --volume="$PWD:/root/project:delegated" --publish 4000:4000 -ti mrseccubus/github-pages|egrep -v "rb:\d+: warning:"
