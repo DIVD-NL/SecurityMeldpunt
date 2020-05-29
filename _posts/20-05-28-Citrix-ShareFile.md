@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Ernstige lek in Citrix ShareFIle storage server / Critical vulnerability in Citrix ShareFIle storage server
+title: Ernstige lek in Citrix ShareFile storage server / Critical vulnerability in Citrix ShareFile storage server
 author: Frank Breedijk
-excerpt:  Citrix ShareFIle servers bevatten een ernstig lek waarmee een aanvaller gevoelige informatie kan achterhalen / Citrix ShareFile servers contain a vulnerability that allows an attacker to obtain sensitive information.
+excerpt:  Citrix ShareFile servers bevatten een ernstig lek waarmee een aanvaller gevoelige informatie kan achterhalen / Citrix ShareFile servers contain a vulnerability that allows an attacker to obtain sensitive information.
 ---
 <small>[English below](#english)</small>
 
@@ -12,9 +12,9 @@ Op 5 mei heeft Citrix klanten die gebruik maken van de Citrix ShareFile oplossin
 
 Citrix heeft geen technisch inhoudelijke mededelingen gedaan over de verholpen kwetsbaarheden, maar onderzoek van [Dimitri van de Giessen](https://twitter.com/DimitriNL) wijst erop dat een van de kwetsbaarheden is ontstaan omdat Citrix gebruik gemaak heeft van een oude Ajax component met een kwetsbaarheid die het een aanvaller mogelijk maakt vertrouwelijke bestanden te lezen.
 
-Opvallend is dat de het uitvoeren van de patch er slechts voor zorgt dat de kwetsbaarheid niet meer voorkomt in nieuwe "storage zones" die aangemaakt worden na het patchen. Om de kwetsbaarheid ook te verwijderen in eerder gecreerde "storage zones" is het nodige mitigerende acties uit te voeren op alle storage servers in het cluster.
+Opvallend is dat de het uitvoeren van de patch er slechts voor zorgt dat de kwetsbaarheid niet meer voorkomt in nieuwe "storage zones" die aangemaakt worden na het patchen. Om de kwetsbaarheid ook te verwijderen in eerder gecreëerde "storage zones" is het nodige mitigerende acties uit te voeren op alle storage servers in het cluster.
 
-Onderzoekers van [DIVD](https://www.divd.nl) hebben via een scan een aantal nog kwetsbare, Nederlandse, Citrix ShareFIle systemen geconden. Het Security Meldpunt heeft gaat de beheerders van deze systemen waarschuwen.
+Onderzoekers van [DIVD](https://www.divd.nl) hebben via een scan een aantal nog kwetsbare, Nederlandse, Citrix ShareFile systemen geconden. Het Security Meldpunt heeft gaat de beheerders van deze systemen waarschuwen.
 
 Voor meer en actuele informatie en advies zie onze [case pagina](/DIVD-2020-00007/).
 
