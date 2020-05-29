@@ -26,6 +26,6 @@ Citrix has not disclosed technical details about these vulnerabilities, but rese
 
 Please take note that applying the patches only resolves this vulnerabilty for "storage zones" that are newly created after the patch has been applied. To resolve the vulnerability for pre-existing "storage zones", a mitigation tool must be applied to all storage servers in the cluster.
 
-[DIVD](https://www.divd.nl) researchers have scanned for vulnerable, Dutch, ShareFIle server. [The Security Hotline](https://www.securitymeldpunt.nl) will contact the administrators of these servers.
+[DIVD](https://www.divd.nl) researchers have scanned for vulnerable, Dutch, ShareFile server. [The Security Hotline](https://www.securitymeldpunt.nl) will contact the administrators of these servers.
 
 For more and up to date information and advice, please look at our [case page](/DIVD-2020-00007/).
