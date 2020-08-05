@@ -3,6 +3,8 @@ layout: post
 title: Datadump met informatie over vermoedelijk gehackte PulseVPN systemen gelekt / Datadump with information on hacked PulseVPN systems leaked
 author: Frank Breedijk
 excerpt:  Een datadump met gevoelige informatie over meer dan 900 vermoedelijk gehackte PulseVPN system is gelekt. Het DIVD Meldpunt gaat Nederlandse slachtoffers informeren. / A datadump with sensitive information about more then 900 compromised PulseVPN systems has been leaked. DIVD Meldpunt is going to inform the Dutch victims.
+redirect_from:
+  - /2020/08/05/PulsVPN-dataset-leaked/
 ---
 <small>[English below](#english)</small>
 
