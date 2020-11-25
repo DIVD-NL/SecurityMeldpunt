@@ -8,7 +8,7 @@ excerpt: Er is een lijst online aangetroffen met 49 577 kwetsbare Fortinet VPN d
 
 ### Nederlands
 
-Op 19 November is door een threat intelligence analyst een lijst met 49,577 kwetsbare Fortinet VPN devices aangetroffen. Het gaat hier omFortinet devices die kwetsbaar zijn voor CVE-2018-13379, via deze kwetsbaarheid kan een aanvaller via een aangepast HTTP request systeem bestanden opvragen waartoe hij normaal gesproken geen toegang zou moeten hebben. Door het bestand sslvpn_websession opt te vragen, is het mogelijk om de inlogggegeven van gebruikers te stelen.
+Op 19 November is door een threat intelligence analyst een lijst met 49,577 kwetsbare Fortinet VPN devices aangetroffen. Het gaat hier om Fortinet devices die kwetsbaar zijn voor CVE-2018-13379, via deze kwetsbaarheid kan een aanvaller via een aangepast HTTP request systeem bestanden opvragen waartoe hij normaal gesproken geen toegang zou moeten hebben. Door het bestand sslvpn_websession op te vragen, is het mogelijk om de inlogggegeven van gebruikers te stelen.
 
 Bleeping Computer heeft een [artikel gepubliceerd](https://www.bleepingcomputer.com/news/security/hacker-posts-exploits-for-over-49-000-vulnerable-fortinet-vpns/) over deze kwetsbaarheid.
 
