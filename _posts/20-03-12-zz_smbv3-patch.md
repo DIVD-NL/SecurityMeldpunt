@@ -4,7 +4,6 @@ title: Mircosoft repareert lek in SMB v3  / Microsoft patches vulnerability in S
 author: Frank Breedijk
 excerpt:  CVE-2020-0796 / ADV200005 SMB remote code execution vulnerability patched
 ---
-<small>[English below](#english)</small>
 
 ### Nederlands
 
