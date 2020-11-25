@@ -5,7 +5,6 @@ author: Frank Breedijk
 excerpt:  In de WordPress Plugin wpDiscuz zit een kritieke kwetsbaarheid die aanvalles in staat stelt een systemen over te nemen / Wordpress plugin wpDiscuz has a critical vulnerability that allows an attacker to take over the system.
 
 ---
-<small>[English below](#english)</small>
 
 ### Nederlands
 
