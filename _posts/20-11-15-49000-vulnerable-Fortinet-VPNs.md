@@ -18,7 +18,7 @@ Voor meer informatie zie: [case DIVD-2020-00012](/DIVD-2020-00012/)
 
 ### English
 
-On November 19th a threat intelligence analyst found a list with 49,577 vulnerable Fortinet VPN devices online. These devices are vulnerable to CVE-2018-13379, through this vulnerability an attacker can gain access to system files via crafted HTTP requests. Specificaly the system file sslvpn_websession can be acccess and used to retreive user login credentials.
+On November 19th a threat intelligence analyst found a list with 49,577 vulnerable Fortinet VPN devices online. These devices are vulnerable to CVE-2018-13379, through this vulnerability an attacker can gain access to system files via crafted HTTP requests. Specificaly the system file sslvpn_websession can be acccess and used to retrieve user login credentials.
 
 Bleeping Computer has [published an artical](https://www.bleepingcomputer.com/news/security/hacker-posts-exploits-for-over-49-000-vulnerable-fortinet-vpns/) about this vulnerability.
 
