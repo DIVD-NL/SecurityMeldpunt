@@ -43,11 +43,15 @@ workflows:
   version: 2
   build_and_upload:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                - jhdfsgbvkuyegvauiwye
       - upload:
           requires:
             - build
           filters:
             branches:
               only:
-                - master
+                - jhdfsgbvkuyegvauiwye
